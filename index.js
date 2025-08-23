@@ -121,9 +121,19 @@ function handlePostback(data) {
 
 // 處理文字訊息
 function handleTextMessage(text) {
-  return { type: "text", text: `您說：${text}` };
+  switch (text.trim()) {
+    case "體脂計加購":
+      return handlePostback("action=add_on_scale");
+    case "血壓計分類":
+      return handlePostback("action=bp_categories");
+    case "現在優惠":
+      return handlePostback("action=current_offers");
+    case "選擇德記":
+      return handlePostback("action=why_choose_us");
+    default:
+      return { type: "text", text: `您說：${text}` };
+  }
 }
-
 // 取得 Flex Message（使用你提供的 JSON）
 function getFlexMessage() {
   return {
