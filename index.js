@@ -614,6 +614,12 @@ function getFlexMessage2() {
                 aspectMode: "cover",
                 aspectRatio: "1:1",
                 gravity: "center",
+                action: {
+                  type: "postback",
+                  label: "action",
+                  data: "category=bluetooth_bp",
+                  displayText: "藍牙血壓計",
+                },
               },
             ],
             paddingAll: "0px",
