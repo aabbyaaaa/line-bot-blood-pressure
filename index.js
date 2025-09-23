@@ -49,7 +49,7 @@ function handlePostback(data) {
 
   switch (data) {
     case "action=add_on_scale":
-      // 上方區塊：體脂計加購
+      // 上方區塊：熱敷墊加購
       return getFlexMessage3();
 
     case "action=bp_categories":
@@ -617,7 +617,7 @@ function getFlexMessage2() {
                 action: {
                   type: "postback",
                   label: "action",
-                  data: "action=current_offers",
+                  data: "action=add_on_scale",
                   displayText: "熱敷墊加價購，最低69折起",
                 },
               },
