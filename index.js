@@ -617,7 +617,7 @@ function getFlexMessage2() {
                 action: {
                   type: "postback",
                   label: "action",
-                  data: "category=bluetooth_bp",
+                  data: "action=current_offers",
                   displayText: "熱敷墊加價購，最低69折起",
                 },
               },
