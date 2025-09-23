@@ -242,7 +242,7 @@ function getFlexMessage() {
                     action: {
                       type: "message",
                       label: "action",
-                      text: "⏰ 目前為下班時段（客服離線），我們會在上班時間依序回覆／協助下單。 也可先點「看活動辦法」或「體脂計清單」了解品項與價格喔～",
+                      text: "⏰ 目前為下班時段（客服離線），我們會在上班時間依序回覆／協助下單。 也可先點「看活動辦法」或「體脂計清單」了解品項與價格喔～XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                     },
                   },
                 ],
