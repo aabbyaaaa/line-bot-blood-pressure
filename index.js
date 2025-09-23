@@ -126,7 +126,7 @@ function handleTextMessage(text) {
       return handlePostback("action=add_on_scale");
     case "血壓計分類":
       return handlePostback("action=bp_categories");
-    case "現在優惠":
+    case "血壓計活動":
       return handlePostback("action=current_offers");
     case "為什麼血壓計要跟德記生活買？":
       return handlePostback("action=why_choose_us");
@@ -561,7 +561,7 @@ function getFlexMessage() {
 function getFlexMessage2() {
   return {
     type: "flex",
-    altText: "現在優惠", // 加上 altText
+    altText: "血壓計活動", // 加上 altText
     contents: [
       {
         type: "bubble",
