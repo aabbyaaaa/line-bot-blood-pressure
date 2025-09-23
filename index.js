@@ -81,7 +81,7 @@ function handlePostback(data) {
               type: "action",
               action: {
                 type: "postback",
-                label: "藍牙血壓計",
+                label: "藍牙血壓計ZZZZZ",
                 data: "category=bluetooth_bp",
                 displayText: "藍牙血壓計",
               },
