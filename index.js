@@ -122,7 +122,7 @@ function handlePostback(data) {
 // 處理文字訊息
 function handleTextMessage(text) {
   switch (text.trim()) {
-    case "體脂計加購":
+    case "熱敷墊加價購，最低69折起":
       return handlePostback("action=add_on_scale");
     case "血壓計分類":
       return handlePostback("action=bp_categories");
@@ -573,7 +573,7 @@ function getFlexMessage2() {
             contents: [
               {
                 type: "image",
-                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/6_30b113a8-ace7-4480-835d-a228fca05b45.jpg?v=1758603329",
+                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/8_edcd2cad-c171-45ef-9482-44ad5f2b70c2.jpg?v=1758603330",
                 size: "full",
                 aspectMode: "cover",
                 aspectRatio: "1:1",
@@ -591,7 +591,7 @@ function getFlexMessage2() {
             contents: [
               {
                 type: "image",
-                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/4_5576ad96-b037-4a23-b39b-4eb7ef692aae.jpg?v=1758603329",
+                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/5_2edb8052-f42f-4306-b8e5-e2eaee5028d6.jpg?v=1758603329",
                 size: "full",
                 aspectMode: "cover",
                 aspectRatio: "1:1",
@@ -609,47 +609,17 @@ function getFlexMessage2() {
             contents: [
               {
                 type: "image",
-                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/BN-1000x1000-2.jpg?v=1758619217",
+                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/20241208.jpg?v=1758603697",
                 size: "full",
                 aspectMode: "cover",
                 aspectRatio: "1:1",
                 gravity: "center",
-              },
-            ],
-            paddingAll: "0px",
-          },
-        },
-        {
-          type: "bubble",
-          body: {
-            type: "box",
-            layout: "vertical",
-            contents: [
-              {
-                type: "image",
-                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/7_312ff866-18f2-412c-9da4-79e3b0c3fb07.jpg?v=1758603329",
-                size: "full",
-                aspectMode: "cover",
-                aspectRatio: "1:1",
-                gravity: "center",
-              },
-            ],
-            paddingAll: "0px",
-          },
-        },
-        {
-          type: "bubble",
-          body: {
-            type: "box",
-            layout: "vertical",
-            contents: [
-              {
-                type: "image",
-                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/1_509f716f-2d02-4424-aad6-5ee6c11df788.jpg?v=1758603330",
-                size: "full",
-                aspectMode: "cover",
-                aspectRatio: "1:1",
-                gravity: "center",
+                action: {
+                  type: "postback",
+                  label: "action",
+                  data: "category=bluetooth_bp",
+                  displayText: "熱敷墊加價購，最低69折起",
+                },
               },
             ],
             paddingAll: "0px",
