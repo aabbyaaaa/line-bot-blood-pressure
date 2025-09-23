@@ -50,7 +50,7 @@ function handlePostback(data) {
   switch (data) {
     case "action=add_on_scale":
       // 上方區塊：體脂計加購
-      return getFlexMessage();
+      return getFlexMessage3();
 
     case "action=bp_categories":
       // 左下：血壓計分類 - 回傳 Quick Reply
@@ -625,6 +625,102 @@ function getFlexMessage2() {
             paddingAll: "0px",
           },
         },
+      ],
+    },
+  };
+}
+
+function getFlexMessage3() {
+  return {
+    type: "flex",
+    altText: "熱敷墊加價購，最低69折起",
+    contents: {
+      type: "carousel",
+      contents: [
+        {
+          type: "bubble",
+          size: "micro",
+          hero: {
+            type: "image",
+            url: "https://dglife.tw/cdn/shop/products/D52B-TP60.jpg?v=1733890511",
+            aspectMode: "fit",
+            aspectRatio: "320:250",
+            size: "full",
+          },
+          body: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "beurer 博依",
+                    size: "md",
+                    flex: 0,
+                    weight: "bold",
+                  },
+                ],
+              },
+              {
+                type: "text",
+                text: "銀離子抗菌床墊型電毯 單人定時型 TP60",
+                size: "sm",
+                wrap: true,
+              },
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "$2,900",
+                    color: "#EA4343",
+                    weight: "bold",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                  {
+                    type: "text",
+                    text: "$3,900",
+                    decoration: "line-through",
+                    size: "14px",
+                    color: "#9E9E9E",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                ],
+              },
+              {
+                type: "button",
+                action: {
+                  type: "message",
+                  label: "了解更多",
+                  text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。",
+                },
+                style: "primary",
+                offsetTop: "8px",
+                offsetBottom: "18px",
+                color: "#FF7F50",
+                height: "sm",
+                margin: "5px",
+                position: "relative",
+              },
+            ],
+            spacing: "sm",
+            paddingAll: "13px",
+          },
+          styles: {
+            body: {
+              separator: true,
+              separatorColor: "#FFECE6",
+              backgroundColor: "#FFECE6",
+            },
+          },
+        },
+        // 在這裡加上其他 bubble，每個 bubble 之間用逗號分隔
       ],
     },
   };
