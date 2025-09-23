@@ -166,7 +166,7 @@ function getFlexMessage() {
                     contents: [
                       {
                         type: "text",
-                        text: "BC-760七合一體組成計",
+                        text: "BC-760七合一體組成計XXXXXXXXXX",
                         size: "xl",
                         color: "#ffffff",
                         weight: "bold",
