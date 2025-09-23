@@ -90,7 +90,7 @@ function handlePostback(data) {
               type: "action",
               action: {
                 type: "postback",
-                label: "歐姆龍血壓計",
+                label: "歐姆龍血壓計ZZZ",
                 data: "category=omron_bp",
                 displayText: "歐姆龍血壓計",
               },
