@@ -104,8 +104,8 @@ function handlePostback(data) {
       return getFlexMessage2();
 
     case "action=why_choose_us":
-      // 右下：選擇德記
-      return getFlexMessage();
+      // 右下：為什麼血壓計要跟德記生活買？
+      return getFlexMessage4();
 
     // 處理 Quick Reply 的選擇
     case "category=wrist_bp":
@@ -128,7 +128,7 @@ function handleTextMessage(text) {
       return handlePostback("action=bp_categories");
     case "現在優惠":
       return handlePostback("action=current_offers");
-    case "選擇德記":
+    case "為什麼血壓計要跟德記生活買？":
       return handlePostback("action=why_choose_us");
     default:
       return { type: "text", text: `您說：${text}` };
@@ -562,71 +562,98 @@ function getFlexMessage2() {
   return {
     type: "flex",
     altText: "現在優惠", // 加上 altText
-    contents: {
-      type: "carousel",
-      contents: [
-        {
-          type: "bubble",
-          body: {
-            type: "box",
-            layout: "vertical",
-            contents: [
-              {
-                type: "image",
-                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/8_edcd2cad-c171-45ef-9482-44ad5f2b70c2.jpg?v=1758603330",
-                size: "full",
-                aspectMode: "cover",
-                aspectRatio: "1:1",
-                gravity: "center",
-              },
-            ],
-            paddingAll: "0px",
-          },
+    contents: [
+      {
+        type: "bubble",
+        body: {
+          type: "box",
+          layout: "vertical",
+          contents: [
+            {
+              type: "image",
+              url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/6_30b113a8-ace7-4480-835d-a228fca05b45.jpg?v=1758603329",
+              size: "full",
+              aspectMode: "cover",
+              aspectRatio: "1:1",
+              gravity: "center",
+            },
+          ],
+          paddingAll: "0px",
         },
-        {
-          type: "bubble",
-          body: {
-            type: "box",
-            layout: "vertical",
-            contents: [
-              {
-                type: "image",
-                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/5_2edb8052-f42f-4306-b8e5-e2eaee5028d6.jpg?v=1758603329",
-                size: "full",
-                aspectMode: "cover",
-                aspectRatio: "1:1",
-                gravity: "center",
-              },
-            ],
-            paddingAll: "0px",
-          },
+      },
+      {
+        type: "bubble",
+        body: {
+          type: "box",
+          layout: "vertical",
+          contents: [
+            {
+              type: "image",
+              url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/4_5576ad96-b037-4a23-b39b-4eb7ef692aae.jpg?v=1758603329",
+              size: "full",
+              aspectMode: "cover",
+              aspectRatio: "1:1",
+              gravity: "center",
+            },
+          ],
+          paddingAll: "0px",
         },
-        {
-          type: "bubble",
-          body: {
-            type: "box",
-            layout: "vertical",
-            contents: [
-              {
-                type: "image",
-                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/20241208.jpg?v=1758603697",
-                size: "full",
-                aspectMode: "cover",
-                aspectRatio: "1:1",
-                gravity: "center",
-                action: {
-                  type: "postback",
-                  label: "action",
-                  data: "category=bluetooth_bp",
-                  displayText: "藍牙血壓計",
-                },
-              },
-            ],
-            paddingAll: "0px",
-          },
+      },
+      {
+        type: "bubble",
+        body: {
+          type: "box",
+          layout: "vertical",
+          contents: [
+            {
+              type: "image",
+              url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/BN-1000x1000-2.jpg?v=1758619217",
+              size: "full",
+              aspectMode: "cover",
+              aspectRatio: "1:1",
+              gravity: "center",
+            },
+          ],
+          paddingAll: "0px",
         },
-      ],
-    },
+      },
+      {
+        type: "bubble",
+        body: {
+          type: "box",
+          layout: "vertical",
+          contents: [
+            {
+              type: "image",
+              url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/7_312ff866-18f2-412c-9da4-79e3b0c3fb07.jpg?v=1758603329",
+              size: "full",
+              aspectMode: "cover",
+              aspectRatio: "1:1",
+              gravity: "center",
+            },
+          ],
+          paddingAll: "0px",
+        },
+      },
+      {
+        type: "bubble",
+        body: {
+          type: "box",
+          layout: "vertical",
+          contents: [
+            {
+              type: "image",
+              url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/1_509f716f-2d02-4424-aad6-5ee6c11df788.jpg?v=1758603330",
+              size: "full",
+              aspectMode: "cover",
+              aspectRatio: "1:1",
+              gravity: "center",
+            },
+          ],
+          paddingAll: "0px",
+        },
+      },
+    ],
   };
 }
 
@@ -634,6 +661,428 @@ function getFlexMessage3() {
   return {
     type: "flex",
     altText: "熱敷墊加價購，最低69折起",
+    contents: {
+      type: "carousel",
+      contents: [
+        {
+          type: "bubble",
+          size: "micro",
+          hero: {
+            type: "image",
+            url: "https://dglife.tw/cdn/shop/products/D52B-TP60.jpg?v=1733890511",
+            aspectMode: "fit",
+            aspectRatio: "320:250",
+            size: "full",
+          },
+          body: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "beurer 博依",
+                    size: "md",
+                    flex: 0,
+                    weight: "bold",
+                  },
+                ],
+              },
+              {
+                type: "text",
+                text: "銀離子抗菌床墊型電毯 單人定時型 TP60",
+                size: "sm",
+                wrap: true,
+              },
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "$2,900",
+                    color: "#EA4343",
+                    weight: "bold",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                  {
+                    type: "text",
+                    text: "$3,900",
+                    decoration: "line-through",
+                    size: "14px",
+                    color: "#9E9E9E",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                ],
+              },
+              {
+                type: "button",
+                action: {
+                  type: "message",
+                  label: "了解更多",
+                  text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。",
+                },
+                style: "primary",
+                offsetBottom: "18px",
+                color: "#FF7F50",
+                height: "sm",
+                position: "relative",
+                offsetTop: "8px",
+              },
+            ],
+            spacing: "sm",
+            paddingAll: "13px",
+          },
+          styles: {
+            body: {
+              separator: true,
+              separatorColor: "#FFECE6",
+              backgroundColor: "#FFECE6",
+            },
+          },
+        },
+        {
+          type: "bubble",
+          size: "micro",
+          hero: {
+            type: "image",
+            url: "https://dglife.tw/cdn/shop/products/SP1213.jpg?v=1639721372",
+            aspectMode: "fit",
+            aspectRatio: "320:250",
+            size: "full",
+          },
+          body: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "SUNLUS 三樂事",
+                    size: "md",
+                    flex: 0,
+                    weight: "bold",
+                  },
+                ],
+              },
+              {
+                type: "text",
+                text: "暖暖頸肩雙用熱敷柔毛墊 SP1213",
+                size: "sm",
+                wrap: true,
+              },
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "$2,799",
+                    color: "#EA4343",
+                    weight: "bold",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                  {
+                    type: "text",
+                    text: "$3,900",
+                    decoration: "line-through",
+                    size: "14px",
+                    color: "#9E9E9E",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                ],
+              },
+              {
+                type: "button",
+                action: {
+                  type: "message",
+                  label: "了解更多",
+                  text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。",
+                },
+                style: "primary",
+                offsetTop: "8px",
+                offsetBottom: "18px",
+                color: "#FF7F50",
+                height: "sm",
+                position: "relative",
+              },
+            ],
+            spacing: "sm",
+            paddingAll: "13px",
+          },
+          styles: {
+            body: {
+              separator: true,
+              separatorColor: "#FFECE6",
+              backgroundColor: "#FFECE6",
+            },
+          },
+        },
+        {
+          type: "bubble",
+          size: "micro",
+          hero: {
+            type: "image",
+            url: "https://dglife.tw/cdn/shop/products/D52B-TP80.jpg?v=1672386012",
+            aspectMode: "fit",
+            aspectRatio: "320:250",
+            size: "full",
+          },
+          body: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "beurer 博依",
+                    size: "md",
+                    flex: 0,
+                    weight: "bold",
+                  },
+                ],
+              },
+              {
+                type: "text",
+                text: "銀離子抗菌床墊型電毯 單人定時型 TP60",
+                size: "sm",
+                wrap: true,
+              },
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "$2,900",
+                    color: "#EA4343",
+                    weight: "bold",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                  {
+                    type: "text",
+                    text: "$3,900",
+                    decoration: "line-through",
+                    size: "14px",
+                    color: "#9E9E9E",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                ],
+              },
+              {
+                type: "button",
+                action: {
+                  type: "message",
+                  label: "了解更多",
+                  text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。",
+                },
+                style: "primary",
+                offsetTop: "8px",
+                offsetBottom: "18px",
+                color: "#FF7F50",
+                height: "sm",
+                position: "relative",
+              },
+            ],
+            spacing: "sm",
+            paddingAll: "13px",
+          },
+          styles: {
+            body: {
+              separator: true,
+              separatorColor: "#FFECE6",
+              backgroundColor: "#FFECE6",
+            },
+          },
+        },
+        {
+          type: "bubble",
+          size: "micro",
+          hero: {
+            type: "image",
+            url: "https://dglife.tw/cdn/shop/files/D52B-HK49.jpg?v=1733890490",
+            aspectMode: "fit",
+            aspectRatio: "320:250",
+            size: "full",
+          },
+          body: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "beurer 博依",
+                    size: "md",
+                    flex: 0,
+                    weight: "bold",
+                  },
+                ],
+              },
+              {
+                type: "text",
+                text: "銀離子抗菌床墊型電毯 單人定時型 TP60",
+                size: "sm",
+                wrap: true,
+              },
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "$2,900",
+                    color: "#EA4343",
+                    weight: "bold",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                  {
+                    type: "text",
+                    text: "$3,900",
+                    decoration: "line-through",
+                    size: "14px",
+                    color: "#9E9E9E",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                ],
+              },
+              {
+                type: "button",
+                action: {
+                  type: "message",
+                  label: "了解更多",
+                  text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。",
+                },
+                style: "primary",
+                offsetTop: "8px",
+                offsetBottom: "18px",
+                color: "#FF7F50",
+                height: "sm",
+                position: "relative",
+              },
+            ],
+            spacing: "sm",
+            paddingAll: "13px",
+          },
+          styles: {
+            body: {
+              separator: true,
+              separatorColor: "#FFECE6",
+              backgroundColor: "#FFECE6",
+            },
+          },
+        },
+        {
+          type: "bubble",
+          size: "micro",
+          hero: {
+            type: "image",
+            url: "https://dglife.tw/cdn/shop/products/HK55-800_1500x_3dbfb6f7-b36c-4fbe-ab70-b054cc3594ee.jpg?v=1640682441",
+            aspectMode: "fit",
+            aspectRatio: "320:250",
+            size: "full",
+          },
+          body: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "beurer 博依",
+                    size: "md",
+                    flex: 0,
+                    weight: "bold",
+                  },
+                ],
+              },
+              {
+                type: "text",
+                text: "銀離子抗菌床墊型電毯 單人定時型 TP60",
+                size: "sm",
+                wrap: true,
+              },
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "$2,900",
+                    color: "#EA4343",
+                    weight: "bold",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                  {
+                    type: "text",
+                    text: "$3,900",
+                    decoration: "line-through",
+                    size: "14px",
+                    color: "#9E9E9E",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                ],
+              },
+              {
+                type: "button",
+                action: {
+                  type: "message",
+                  label: "了解更多",
+                  text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。",
+                },
+                style: "primary",
+                offsetTop: "8px",
+                offsetBottom: "18px",
+                color: "#FF7F50",
+                height: "sm",
+                position: "relative",
+              },
+            ],
+            spacing: "sm",
+            paddingAll: "13px",
+          },
+          styles: {
+            body: {
+              separator: true,
+              separatorColor: "#FFECE6",
+              backgroundColor: "#FFECE6",
+            },
+          },
+        },
+      ],
+    },
+  };
+}
+
+function getFlexMessage4() {
+  return {
+    type: "flex",
+    altText: "為什麼血壓計要跟德記生活買？",
     contents: {
       type: "carousel",
       contents: [
