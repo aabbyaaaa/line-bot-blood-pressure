@@ -1157,107 +1157,101 @@ function getFlexMessage4() {
 function getFlexMessage5() {
   return {
     type: "flex",
-    altText: "為什麼血壓計要跟德記生活買？",
-    contents: function getFlexMessage4() {
-      return {
-        type: "flex",
-        altText: "為什麼血壓計要跟德記生活買？",
-        contents: {
-          type: "carousel",
-          contents: [
-            {
-              type: "bubble",
-              body: {
-                type: "box",
-                layout: "vertical",
-                contents: [
-                  {
-                    type: "image",
-                    url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/6_30b113a8-ace7-4480-835d-a228fca05b45.jpg?v=1758603329",
-                    size: "full",
-                    aspectMode: "cover",
-                    aspectRatio: "1:1",
-                    gravity: "center",
-                  },
-                ],
-                paddingAll: "0px",
+    altText: "商品資訊",
+    contents: {
+      type: "carousel",
+      contents: [
+        {
+          type: "bubble",
+          body: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "image",
+                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/6_30b113a8-ace7-4480-835d-a228fca05b45.jpg?v=1758603329",
+                size: "full",
+                aspectMode: "cover",
+                aspectRatio: "1:1",
+                gravity: "center",
               },
-            },
-            {
-              type: "bubble",
-              body: {
-                type: "box",
-                layout: "vertical",
-                contents: [
-                  {
-                    type: "image",
-                    url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/4_5576ad96-b037-4a23-b39b-4eb7ef692aae.jpg?v=1758603329",
-                    size: "full",
-                    aspectMode: "cover",
-                    aspectRatio: "1:1",
-                    gravity: "center",
-                  },
-                ],
-                paddingAll: "0px",
-              },
-            },
-            {
-              type: "bubble",
-              body: {
-                type: "box",
-                layout: "vertical",
-                contents: [
-                  {
-                    type: "image",
-                    url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/BN-1000x1000-2.jpg?v=1758619217",
-                    size: "full",
-                    aspectMode: "cover",
-                    aspectRatio: "1:1",
-                    gravity: "center",
-                  },
-                ],
-                paddingAll: "0px",
-              },
-            },
-            {
-              type: "bubble",
-              body: {
-                type: "box",
-                layout: "vertical",
-                contents: [
-                  {
-                    type: "image",
-                    url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/7_312ff866-18f2-412c-9da4-79e3b0c3fb07.jpg?v=1758603329",
-                    size: "full",
-                    aspectMode: "cover",
-                    aspectRatio: "1:1",
-                    gravity: "center",
-                  },
-                ],
-                paddingAll: "0px",
-              },
-            },
-            {
-              type: "bubble",
-              body: {
-                type: "box",
-                layout: "vertical",
-                contents: [
-                  {
-                    type: "image",
-                    url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/1_509f716f-2d02-4424-aad6-5ee6c11df788.jpg?v=1758603330",
-                    size: "full",
-                    aspectMode: "cover",
-                    aspectRatio: "1:1",
-                    gravity: "center",
-                  },
-                ],
-                paddingAll: "0px",
-              },
-            },
-          ],
+            ],
+            paddingAll: "0px",
+          },
         },
-      };
+        {
+          type: "bubble",
+          body: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "image",
+                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/4_5576ad96-b037-4a23-b39b-4eb7ef692aae.jpg?v=1758603329",
+                size: "full",
+                aspectMode: "cover",
+                aspectRatio: "1:1",
+                gravity: "center",
+              },
+            ],
+            paddingAll: "0px",
+          },
+        },
+        {
+          type: "bubble",
+          body: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "image",
+                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/BN-1000x1000-2.jpg?v=1758619217",
+                size: "full",
+                aspectMode: "cover",
+                aspectRatio: "1:1",
+                gravity: "center",
+              },
+            ],
+            paddingAll: "0px",
+          },
+        },
+        {
+          type: "bubble",
+          body: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "image",
+                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/7_312ff866-18f2-412c-9da4-79e3b0c3fb07.jpg?v=1758603329",
+                size: "full",
+                aspectMode: "cover",
+                aspectRatio: "1:1",
+                gravity: "center",
+              },
+            ],
+            paddingAll: "0px",
+          },
+        },
+        {
+          type: "bubble",
+          body: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "image",
+                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/1_509f716f-2d02-4424-aad6-5ee6c11df788.jpg?v=1758603330",
+                size: "full",
+                aspectMode: "cover",
+                aspectRatio: "1:1",
+                gravity: "center",
+              },
+            ],
+            paddingAll: "0px",
+          },
+        },
+      ],
     },
   };
 }
