@@ -49,7 +49,7 @@ function handlePostback(data) {
 
   switch (data) {
     case "action=add_on_scale":
-      // 上方區塊：熱敷墊加購
+      // 上方區塊：體脂計加購
       return getFlexMessage3();
 
     case "action=bp_categories":
@@ -114,6 +114,13 @@ function handlePostback(data) {
     case "category=omron_bp":
       return getFlexMessage5();
 
+    // 新增：處理 button 的 "fat" postback
+    case "fat":
+      return {
+        type: "text",
+        text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。",
+      };
+
     // 新增：處理 button 的 "hello" postback
     case "hello":
       return {
@@ -132,7 +139,7 @@ function handlePostback(data) {
 // 處理文字訊息
 function handleTextMessage(text) {
   switch (text.trim()) {
-    case "熱敷墊加價購，最低69折起":
+    case "體脂計加價購，最低69折起":
       return handlePostback("action=add_on_scale");
     case "血壓計分類":
       return handlePostback("action=bp_categories");
@@ -630,7 +637,7 @@ function getFlexMessage2() {
                   type: "postback",
                   label: "action",
                   data: "action=add_on_scale",
-                  displayText: "熱敷墊加價購，最低69折起",
+                  displayText: "體脂計加價購，最低69折起",
                 },
               },
             ],
@@ -642,12 +649,12 @@ function getFlexMessage2() {
   };
 }
 
-// 加價構
+// 體脂計加價購，最低69折起
 
 function getFlexMessage3() {
   return {
     type: "flex",
-    altText: "熱敷墊加價購，最低69折起",
+    altText: "體脂計加價購，最低69折起",
     contents: {
       type: "carousel",
       contents: [
@@ -1227,13 +1234,44 @@ function getFlexMessage5() {
       contents: [
         {
           type: "bubble",
-          size: "micro",
-          hero: {
-            type: "image",
-            url: "https://dglife.tw/cdn/shop/products/2021052610273338.jpg?v=1639721163",
-            aspectMode: "fit",
-            aspectRatio: "320:230",
-            size: "full",
+          size: "deca",
+          header: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "image",
+                url: "https://dglife.tw/cdn/shop/products/118de98a750242ac110004.jpg?v=1718671087",
+                size: "full",
+                aspectRatio: "320:220",
+                aspectMode: "fit",
+              },
+              {
+                type: "box",
+                layout: "horizontal",
+                contents: [
+                  {
+                    type: "text",
+                    text: "保固3年",
+                    size: "xs",
+                    color: "#ffffff",
+                    align: "center",
+                    gravity: "center",
+                  },
+                ],
+                position: "absolute",
+                flex: 0,
+                width: "60px",
+                height: "25px",
+                backgroundColor: "#EC3D44",
+                cornerRadius: "100px",
+                offsetTop: "18px",
+                offsetStart: "10px",
+                paddingAll: "2px",
+                paddingStart: "4px",
+                paddingEnd: "4px",
+              },
+            ],
           },
           body: {
             type: "box",
@@ -1245,22 +1283,20 @@ function getFlexMessage5() {
                 contents: [
                   {
                     type: "text",
-                    text: "beurer 博依",
+                    text: "歐姆龍OMRON",
                     size: "md",
                     flex: 0,
                     weight: "bold",
-                    offsetTop: "2px",
                   },
                 ],
                 offsetBottom: "5px",
               },
               {
                 type: "text",
-                text: "銀離子抗菌床墊型電毯 單人定時型 TP60",
+                text: "手腕式血壓計 HEM6161",
                 size: "sm",
                 wrap: true,
                 offsetBottom: "5px",
-                offsetTop: "2px",
               },
               {
                 type: "box",
@@ -1268,7 +1304,7 @@ function getFlexMessage5() {
                 contents: [
                   {
                     type: "text",
-                    text: "$2,900",
+                    text: "優惠價 ❓❓",
                     color: "#EA4343",
                     weight: "bold",
                     offsetTop: "5px",
@@ -1282,34 +1318,502 @@ function getFlexMessage5() {
                     color: "#9E9E9E",
                     offsetTop: "5px",
                     offsetBottom: "5px",
+                    offsetStart: "20px",
                   },
                 ],
                 offsetBottom: "5px",
-                height: "30px",
-                offsetTop: "2px",
+                height: "28px",
               },
               {
                 type: "button",
                 style: "primary",
-                color: "#FF7F50",
+                color: "#005eb8",
                 height: "sm",
                 position: "relative",
                 action: {
                   type: "postback",
-                  label: "了解更多",
-                  data: "hello",
+                  label: "詢價最低⬊79折起",
+                  data: "blood",
                 },
-                offsetTop: "3px",
+                offsetTop: "5px",
               },
             ],
             spacing: "sm",
-            paddingEnd: "10px",
-            paddingStart: "10px",
+            paddingEnd: "15px",
+            paddingStart: "15px",
           },
           styles: {
             body: {
-              separatorColor: "#FFECE6",
-              backgroundColor: "#FFECE6",
+              separatorColor: "#E6F3FF",
+              backgroundColor: "#E6F3FF",
+            },
+          },
+        },
+        {
+          type: "bubble",
+          size: "deca",
+          header: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "image",
+                url: "https://dglife.tw/cdn/shop/products/118de98a750242ac110004.jpg?v=1718671087",
+                size: "full",
+                aspectRatio: "320:220",
+                aspectMode: "fit",
+              },
+              {
+                type: "box",
+                layout: "horizontal",
+                contents: [
+                  {
+                    type: "text",
+                    text: "保固3年",
+                    size: "xs",
+                    color: "#ffffff",
+                    align: "center",
+                    gravity: "center",
+                  },
+                ],
+                position: "absolute",
+                flex: 0,
+                width: "60px",
+                height: "25px",
+                backgroundColor: "#EC3D44",
+                cornerRadius: "100px",
+                offsetTop: "18px",
+                offsetStart: "10px",
+                paddingAll: "2px",
+                paddingStart: "4px",
+                paddingEnd: "4px",
+              },
+            ],
+          },
+          body: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "歐姆龍OMRON",
+                    size: "md",
+                    flex: 0,
+                    weight: "bold",
+                  },
+                ],
+                offsetBottom: "5px",
+              },
+              {
+                type: "text",
+                text: "手腕式血壓計 HEM6161",
+                size: "sm",
+                wrap: true,
+                offsetBottom: "5px",
+              },
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "優惠價 ❓❓",
+                    color: "#EA4343",
+                    weight: "bold",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                  {
+                    type: "text",
+                    text: "$3,900",
+                    decoration: "line-through",
+                    size: "14px",
+                    color: "#9E9E9E",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                    offsetStart: "20px",
+                  },
+                ],
+                offsetBottom: "5px",
+                height: "28px",
+              },
+              {
+                type: "button",
+                style: "primary",
+                color: "#005eb8",
+                height: "sm",
+                position: "relative",
+                action: {
+                  type: "postback",
+                  label: "詢價最低⬊79折起",
+                  data: "blood",
+                },
+                offsetTop: "5px",
+              },
+            ],
+            spacing: "sm",
+            paddingEnd: "15px",
+            paddingStart: "15px",
+          },
+          styles: {
+            body: {
+              separatorColor: "#E6F3FF",
+              backgroundColor: "#E6F3FF",
+            },
+          },
+        },
+        {
+          type: "bubble",
+          size: "deca",
+          header: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "image",
+                url: "https://dglife.tw/cdn/shop/products/118de98a750242ac110004.jpg?v=1718671087",
+                size: "full",
+                aspectRatio: "320:220",
+                aspectMode: "fit",
+              },
+              {
+                type: "box",
+                layout: "horizontal",
+                contents: [
+                  {
+                    type: "text",
+                    text: "保固3年",
+                    size: "xs",
+                    color: "#ffffff",
+                    align: "center",
+                    gravity: "center",
+                  },
+                ],
+                position: "absolute",
+                flex: 0,
+                width: "60px",
+                height: "25px",
+                backgroundColor: "#EC3D44",
+                cornerRadius: "100px",
+                offsetTop: "18px",
+                offsetStart: "10px",
+                paddingAll: "2px",
+                paddingStart: "4px",
+                paddingEnd: "4px",
+              },
+            ],
+          },
+          body: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "歐姆龍OMRON",
+                    size: "md",
+                    flex: 0,
+                    weight: "bold",
+                  },
+                ],
+                offsetBottom: "5px",
+              },
+              {
+                type: "text",
+                text: "手腕式血壓計 HEM6161",
+                size: "sm",
+                wrap: true,
+                offsetBottom: "5px",
+              },
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "優惠價 ❓❓",
+                    color: "#EA4343",
+                    weight: "bold",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                  {
+                    type: "text",
+                    text: "$3,900",
+                    decoration: "line-through",
+                    size: "14px",
+                    color: "#9E9E9E",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                    offsetStart: "20px",
+                  },
+                ],
+                offsetBottom: "5px",
+                height: "28px",
+              },
+              {
+                type: "button",
+                style: "primary",
+                color: "#005eb8",
+                height: "sm",
+                position: "relative",
+                action: {
+                  type: "postback",
+                  label: "詢價最低⬊79折起",
+                  data: "blood",
+                },
+                offsetTop: "5px",
+              },
+            ],
+            spacing: "sm",
+            paddingEnd: "15px",
+            paddingStart: "15px",
+          },
+          styles: {
+            body: {
+              separatorColor: "#E6F3FF",
+              backgroundColor: "#E6F3FF",
+            },
+          },
+        },
+        {
+          type: "bubble",
+          size: "deca",
+          header: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "image",
+                url: "https://dglife.tw/cdn/shop/products/118de98a750242ac110004.jpg?v=1718671087",
+                size: "full",
+                aspectRatio: "320:220",
+                aspectMode: "fit",
+              },
+              {
+                type: "box",
+                layout: "horizontal",
+                contents: [
+                  {
+                    type: "text",
+                    text: "保固3年",
+                    size: "xs",
+                    color: "#ffffff",
+                    align: "center",
+                    gravity: "center",
+                  },
+                ],
+                position: "absolute",
+                flex: 0,
+                width: "60px",
+                height: "25px",
+                backgroundColor: "#EC3D44",
+                cornerRadius: "100px",
+                offsetTop: "18px",
+                offsetStart: "10px",
+                paddingAll: "2px",
+                paddingStart: "4px",
+                paddingEnd: "4px",
+              },
+            ],
+          },
+          body: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "歐姆龍OMRON",
+                    size: "md",
+                    flex: 0,
+                    weight: "bold",
+                  },
+                ],
+                offsetBottom: "5px",
+              },
+              {
+                type: "text",
+                text: "手腕式血壓計 HEM6161",
+                size: "sm",
+                wrap: true,
+                offsetBottom: "5px",
+              },
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "優惠價 ❓❓",
+                    color: "#EA4343",
+                    weight: "bold",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                  {
+                    type: "text",
+                    text: "$3,900",
+                    decoration: "line-through",
+                    size: "14px",
+                    color: "#9E9E9E",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                    offsetStart: "20px",
+                  },
+                ],
+                offsetBottom: "5px",
+                height: "28px",
+              },
+              {
+                type: "button",
+                style: "primary",
+                color: "#005eb8",
+                height: "sm",
+                position: "relative",
+                action: {
+                  type: "postback",
+                  label: "詢價最低⬊79折起",
+                  data: "blood",
+                },
+                offsetTop: "5px",
+              },
+            ],
+            spacing: "sm",
+            paddingEnd: "15px",
+            paddingStart: "15px",
+          },
+          styles: {
+            body: {
+              separatorColor: "#E6F3FF",
+              backgroundColor: "#E6F3FF",
+            },
+          },
+        },
+        {
+          type: "bubble",
+          size: "deca",
+          header: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "image",
+                url: "https://dglife.tw/cdn/shop/products/118de98a750242ac110004.jpg?v=1718671087",
+                size: "full",
+                aspectRatio: "320:220",
+                aspectMode: "fit",
+              },
+              {
+                type: "box",
+                layout: "horizontal",
+                contents: [
+                  {
+                    type: "text",
+                    text: "保固3年",
+                    size: "xs",
+                    color: "#ffffff",
+                    align: "center",
+                    gravity: "center",
+                  },
+                ],
+                position: "absolute",
+                flex: 0,
+                width: "60px",
+                height: "25px",
+                backgroundColor: "#EC3D44",
+                cornerRadius: "100px",
+                offsetTop: "18px",
+                offsetStart: "10px",
+                paddingAll: "2px",
+                paddingStart: "4px",
+                paddingEnd: "4px",
+              },
+            ],
+          },
+          body: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "歐姆龍OMRON",
+                    size: "md",
+                    flex: 0,
+                    weight: "bold",
+                  },
+                ],
+                offsetBottom: "5px",
+              },
+              {
+                type: "text",
+                text: "手腕式血壓計 HEM6161",
+                size: "sm",
+                wrap: true,
+                offsetBottom: "5px",
+              },
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "優惠價 ❓❓",
+                    color: "#EA4343",
+                    weight: "bold",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                  {
+                    type: "text",
+                    text: "$3,900",
+                    decoration: "line-through",
+                    size: "14px",
+                    color: "#9E9E9E",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                    offsetStart: "20px",
+                  },
+                ],
+                offsetBottom: "5px",
+                height: "28px",
+              },
+              {
+                type: "button",
+                style: "primary",
+                color: "#005eb8",
+                height: "sm",
+                position: "relative",
+                action: {
+                  type: "postback",
+                  label: "詢價最低⬊79折起",
+                  data: "blood",
+                },
+                offsetTop: "5px",
+              },
+            ],
+            spacing: "sm",
+            paddingEnd: "15px",
+            paddingStart: "15px",
+          },
+          styles: {
+            body: {
+              separatorColor: "#E6F3FF",
+              backgroundColor: "#E6F3FF",
             },
           },
         },
