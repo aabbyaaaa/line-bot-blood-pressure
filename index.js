@@ -114,6 +114,13 @@ function handlePostback(data) {
     case "category=omron_bp":
       return getFlexMessage5();
 
+    // 新增：處理 button 的 "hello" postback
+    case "hello":
+      return {
+        type: "text",
+        text: "血壓計XXXXXXXX",
+      };
+
     default:
       return {
         type: "text",
@@ -649,9 +656,9 @@ function getFlexMessage3() {
           size: "micro",
           hero: {
             type: "image",
-            url: "https://dglife.tw/cdn/shop/products/D52B-TP60.jpg?v=1733890511",
+            url: "https://dglife.tw/cdn/shop/products/2021052610273338.jpg?v=1639721163",
             aspectMode: "fit",
-            aspectRatio: "320:250",
+            aspectRatio: "320:230",
             size: "full",
           },
           body: {
@@ -664,18 +671,30 @@ function getFlexMessage3() {
                 contents: [
                   {
                     type: "text",
-                    text: "beurer 博依",
+                    text: "OMRON 歐姆龍",
                     size: "md",
                     flex: 0,
                     weight: "bold",
+                    offsetTop: "2px",
                   },
                 ],
+                offsetBottom: "5px",
               },
               {
                 type: "text",
-                text: "銀離子抗菌床墊型電毯 單人定時型 TP60",
+                text: "體脂計 HBF217",
                 size: "sm",
                 wrap: true,
+                offsetBottom: "5px",
+                offsetTop: "2px",
+              },
+              {
+                type: "text",
+                size: "sm",
+                wrap: true,
+                offsetBottom: "5px",
+                offsetTop: "2px",
+                text: "   .",
               },
               {
                 type: "box",
@@ -699,28 +718,30 @@ function getFlexMessage3() {
                     offsetBottom: "5px",
                   },
                 ],
+                offsetBottom: "5px",
+                height: "30px",
+                offsetTop: "2px",
               },
               {
                 type: "button",
-                action: {
-                  type: "message",
-                  label: "了解更多",
-                  text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。",
-                },
                 style: "primary",
-                offsetBottom: "18px",
                 color: "#FF7F50",
                 height: "sm",
                 position: "relative",
-                offsetTop: "8px",
+                action: {
+                  type: "postback",
+                  label: "了解更多",
+                  data: "fat",
+                },
+                offsetTop: "3px",
               },
             ],
             spacing: "sm",
-            paddingAll: "13px",
+            paddingEnd: "10px",
+            paddingStart: "10px",
           },
           styles: {
             body: {
-              separator: true,
               separatorColor: "#FFECE6",
               backgroundColor: "#FFECE6",
             },
@@ -731,9 +752,9 @@ function getFlexMessage3() {
           size: "micro",
           hero: {
             type: "image",
-            url: "https://dglife.tw/cdn/shop/products/SP1213.jpg?v=1639721372",
+            url: "https://dglife.tw/cdn/shop/files/D52O-HBF222T-DGS.jpg?v=1706512322",
             aspectMode: "fit",
-            aspectRatio: "320:250",
+            aspectRatio: "320:230",
             size: "full",
           },
           body: {
@@ -746,100 +767,30 @@ function getFlexMessage3() {
                 contents: [
                   {
                     type: "text",
-                    text: "SUNLUS 三樂事",
+                    text: "OMRON 歐姆龍",
                     size: "md",
                     flex: 0,
                     weight: "bold",
+                    offsetTop: "2px",
                   },
                 ],
+                offsetBottom: "5px",
               },
               {
                 type: "text",
-                text: "暖暖頸肩雙用熱敷柔毛墊 SP1213",
+                text: "十合一藍牙體組成計",
                 size: "sm",
                 wrap: true,
-              },
-              {
-                type: "box",
-                layout: "baseline",
-                contents: [
-                  {
-                    type: "text",
-                    text: "$2,799",
-                    color: "#EA4343",
-                    weight: "bold",
-                    offsetTop: "5px",
-                    offsetBottom: "5px",
-                  },
-                  {
-                    type: "text",
-                    text: "$3,900",
-                    decoration: "line-through",
-                    size: "14px",
-                    color: "#9E9E9E",
-                    offsetTop: "5px",
-                    offsetBottom: "5px",
-                  },
-                ],
-              },
-              {
-                type: "button",
-                action: {
-                  type: "message",
-                  label: "了解更多",
-                  text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。",
-                },
-                style: "primary",
-                offsetTop: "8px",
-                offsetBottom: "18px",
-                color: "#FF7F50",
-                height: "sm",
-                position: "relative",
-              },
-            ],
-            spacing: "sm",
-            paddingAll: "13px",
-          },
-          styles: {
-            body: {
-              separator: true,
-              separatorColor: "#FFECE6",
-              backgroundColor: "#FFECE6",
-            },
-          },
-        },
-        {
-          type: "bubble",
-          size: "micro",
-          hero: {
-            type: "image",
-            url: "https://dglife.tw/cdn/shop/products/D52B-TP80.jpg?v=1672386012",
-            aspectMode: "fit",
-            aspectRatio: "320:250",
-            size: "full",
-          },
-          body: {
-            type: "box",
-            layout: "vertical",
-            contents: [
-              {
-                type: "box",
-                layout: "baseline",
-                contents: [
-                  {
-                    type: "text",
-                    text: "beurer 博依",
-                    size: "md",
-                    flex: 0,
-                    weight: "bold",
-                  },
-                ],
+                offsetBottom: "5px",
+                offsetTop: "2px",
               },
               {
                 type: "text",
-                text: "銀離子抗菌床墊型電毯 單人定時型 TP60",
+                text: "BC-402",
                 size: "sm",
                 wrap: true,
+                offsetBottom: "5px",
+                offsetTop: "2px",
               },
               {
                 type: "box",
@@ -863,28 +814,30 @@ function getFlexMessage3() {
                     offsetBottom: "5px",
                   },
                 ],
+                offsetBottom: "5px",
+                height: "30px",
+                offsetTop: "2px",
               },
               {
                 type: "button",
-                action: {
-                  type: "message",
-                  label: "了解更多",
-                  text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。",
-                },
                 style: "primary",
-                offsetTop: "8px",
-                offsetBottom: "18px",
                 color: "#FF7F50",
                 height: "sm",
                 position: "relative",
+                action: {
+                  type: "postback",
+                  label: "了解更多",
+                  data: "fat",
+                },
+                offsetTop: "3px",
               },
             ],
             spacing: "sm",
-            paddingAll: "13px",
+            paddingEnd: "10px",
+            paddingStart: "10px",
           },
           styles: {
             body: {
-              separator: true,
               separatorColor: "#FFECE6",
               backgroundColor: "#FFECE6",
             },
@@ -895,9 +848,9 @@ function getFlexMessage3() {
           size: "micro",
           hero: {
             type: "image",
-            url: "https://dglife.tw/cdn/shop/files/D52B-HK49.jpg?v=1733890490",
+            url: "https://dglife.tw/cdn/shop/products/HBF-702T.jpg?v=1639721169",
             aspectMode: "fit",
-            aspectRatio: "320:250",
+            aspectRatio: "320:230",
             size: "full",
           },
           body: {
@@ -910,18 +863,22 @@ function getFlexMessage3() {
                 contents: [
                   {
                     type: "text",
-                    text: "beurer 博依",
+                    text: "OMRON 歐姆龍",
                     size: "md",
                     flex: 0,
                     weight: "bold",
+                    offsetTop: "2px",
                   },
                 ],
+                offsetBottom: "5px",
               },
               {
                 type: "text",
-                text: "銀離子抗菌床墊型電毯 單人定時型 TP60",
+                text: "體重體脂肪計 HBF702T",
                 size: "sm",
                 wrap: true,
+                offsetBottom: "5px",
+                offsetTop: "2px",
               },
               {
                 type: "box",
@@ -945,28 +902,30 @@ function getFlexMessage3() {
                     offsetBottom: "5px",
                   },
                 ],
+                offsetBottom: "5px",
+                height: "30px",
+                offsetTop: "2px",
               },
               {
                 type: "button",
-                action: {
-                  type: "message",
-                  label: "了解更多",
-                  text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。",
-                },
                 style: "primary",
-                offsetTop: "8px",
-                offsetBottom: "18px",
                 color: "#FF7F50",
                 height: "sm",
                 position: "relative",
+                action: {
+                  type: "postback",
+                  label: "了解更多",
+                  data: "fat",
+                },
+                offsetTop: "3px",
               },
             ],
             spacing: "sm",
-            paddingAll: "13px",
+            paddingEnd: "10px",
+            paddingStart: "10px",
           },
           styles: {
             body: {
-              separator: true,
               separatorColor: "#FFECE6",
               backgroundColor: "#FFECE6",
             },
@@ -977,9 +936,9 @@ function getFlexMessage3() {
           size: "micro",
           hero: {
             type: "image",
-            url: "https://dglife.tw/cdn/shop/products/HK55-800_1500x_3dbfb6f7-b36c-4fbe-ab70-b054cc3594ee.jpg?v=1640682441",
+            url: "https://dglife.tw/cdn/shop/products/HBF-702T.jpg?v=1639721169",
             aspectMode: "fit",
-            aspectRatio: "320:250",
+            aspectRatio: "320:230",
             size: "full",
           },
           body: {
@@ -992,18 +951,22 @@ function getFlexMessage3() {
                 contents: [
                   {
                     type: "text",
-                    text: "beurer 博依",
+                    text: "OMRON 歐姆龍",
                     size: "md",
                     flex: 0,
                     weight: "bold",
+                    offsetTop: "2px",
                   },
                 ],
+                offsetBottom: "5px",
               },
               {
                 type: "text",
-                text: "銀離子抗菌床墊型電毯 單人定時型 TP60",
+                text: "體重體脂肪計 HBF702T",
                 size: "sm",
                 wrap: true,
+                offsetBottom: "5px",
+                offsetTop: "2px",
               },
               {
                 type: "box",
@@ -1027,28 +990,118 @@ function getFlexMessage3() {
                     offsetBottom: "5px",
                   },
                 ],
+                offsetBottom: "5px",
+                height: "30px",
+                offsetTop: "2px",
               },
               {
                 type: "button",
-                action: {
-                  type: "message",
-                  label: "了解更多",
-                  text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。",
-                },
                 style: "primary",
-                offsetTop: "8px",
-                offsetBottom: "18px",
                 color: "#FF7F50",
                 height: "sm",
                 position: "relative",
+                action: {
+                  type: "postback",
+                  label: "了解更多",
+                  data: "fat",
+                },
+                offsetTop: "3px",
               },
             ],
             spacing: "sm",
-            paddingAll: "13px",
+            paddingEnd: "10px",
+            paddingStart: "10px",
           },
           styles: {
             body: {
-              separator: true,
+              separatorColor: "#FFECE6",
+              backgroundColor: "#FFECE6",
+            },
+          },
+        },
+        {
+          type: "bubble",
+          size: "micro",
+          hero: {
+            type: "image",
+            url: "https://dglife.tw/cdn/shop/products/HBF-702T.jpg?v=1639721169",
+            aspectMode: "fit",
+            aspectRatio: "320:230",
+            size: "full",
+          },
+          body: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "OMRON 歐姆龍",
+                    size: "md",
+                    flex: 0,
+                    weight: "bold",
+                    offsetTop: "2px",
+                  },
+                ],
+                offsetBottom: "5px",
+              },
+              {
+                type: "text",
+                text: "體重體脂肪計 HBF702T",
+                size: "sm",
+                wrap: true,
+                offsetBottom: "5px",
+                offsetTop: "2px",
+              },
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "$2,900",
+                    color: "#EA4343",
+                    weight: "bold",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                  {
+                    type: "text",
+                    text: "$3,900",
+                    decoration: "line-through",
+                    size: "14px",
+                    color: "#9E9E9E",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                ],
+                offsetBottom: "5px",
+                height: "30px",
+                offsetTop: "2px",
+              },
+              {
+                type: "button",
+                style: "primary",
+                color: "#FF7F50",
+                height: "sm",
+                position: "relative",
+                action: {
+                  type: "postback",
+                  label: "了解更多",
+                  data: "fat",
+                },
+                offsetTop: "3px",
+              },
+            ],
+            spacing: "sm",
+            paddingEnd: "10px",
+            paddingStart: "10px",
+          },
+          styles: {
+            body: {
               separatorColor: "#FFECE6",
               backgroundColor: "#FFECE6",
             },
