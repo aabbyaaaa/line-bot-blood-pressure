@@ -114,11 +114,19 @@ function handlePostback(data) {
     case "category=omron_bp":
       return getFlexMessage5();
 
+    // 新增：處理 button 的 "fat" postback
     case "fat":
+      return {
+        type: "text",
+        text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。",
+      };
+
+    // 新增：處理 button 的 "blood" postback
+    case "blood":
       return [
         {
           type: "text",
-          text: "我們的客服時間是平日 09:00–17:30。如果您想購買產品，歡迎先留言告訴我們商品型號，或直接說明想買的產品（就算不知道型號也沒問題喔～）我們會在上班時間儘快回覆您，謝謝！",
+          text: "感謝您的訊息！我們的客服時間是平日 09:00–17:30。如果您想購買產品，歡迎先留言告訴我們商品型號，或直接說明想買的產品（就算不知道型號也沒問題喔～）我們會在上班時間儘快回覆您，謝謝！",
         },
         {
           type: "text",
@@ -165,13 +173,6 @@ function handlePostback(data) {
           },
         },
       ];
-
-    // 新增：處理 button 的 "blood" postback
-    case "blood":
-      return {
-        type: "text",
-        text: "客",
-      };
 
     default:
       return {
