@@ -1163,92 +1163,86 @@ function getFlexMessage5() {
       contents: [
         {
           type: "bubble",
-          body: {
-            type: "box",
-            layout: "vertical",
-            contents: [
-              {
-                type: "image",
-                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/6_30b113a8-ace7-4480-835d-a228fca05b45.jpg?v=1758603329",
-                size: "full",
-                aspectMode: "cover",
-                aspectRatio: "1:1",
-                gravity: "center",
-              },
-            ],
-            paddingAll: "0px",
+          size: "micro",
+          hero: {
+            type: "image",
+            url: "https://dglife.tw/cdn/shop/products/D52B-TP60.jpg?v=1733890511",
+            aspectMode: "fit",
+            aspectRatio: "320:220",
+            size: "full",
           },
-        },
-        {
-          type: "bubble",
           body: {
             type: "box",
             layout: "vertical",
             contents: [
               {
-                type: "image",
-                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/4_5576ad96-b037-4a23-b39b-4eb7ef692aae.jpg?v=1758603329",
-                size: "full",
-                aspectMode: "cover",
-                aspectRatio: "1:1",
-                gravity: "center",
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "beurer 博依",
+                    size: "md",
+                    flex: 0,
+                    weight: "bold",
+                  },
+                ],
+                offsetBottom: "5px",
+              },
+              {
+                type: "text",
+                text: "銀離子抗菌床墊型電毯 單人定時型 TP60",
+                size: "sm",
+                wrap: true,
+                offsetBottom: "5px",
+              },
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "text",
+                    text: "$2,900",
+                    color: "#EA4343",
+                    weight: "bold",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                  {
+                    type: "text",
+                    text: "$3,900",
+                    decoration: "line-through",
+                    size: "14px",
+                    color: "#9E9E9E",
+                    offsetTop: "5px",
+                    offsetBottom: "5px",
+                  },
+                ],
+                offsetBottom: "5px",
+              },
+              {
+                type: "button",
+                style: "primary",
+                color: "#005eb8",
+                height: "sm",
+                position: "relative",
+                action: {
+                  type: "postback",
+                  label: "action",
+                  data: "hello",
+                },
+                offsetTop: "5px",
               },
             ],
-            paddingAll: "0px",
+            spacing: "sm",
+            paddingEnd: "10px",
+            paddingStart: "10px",
           },
-        },
-        {
-          type: "bubble",
-          body: {
-            type: "box",
-            layout: "vertical",
-            contents: [
-              {
-                type: "image",
-                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/BN-1000x1000-2.jpg?v=1758619217",
-                size: "full",
-                aspectMode: "cover",
-                aspectRatio: "1:1",
-                gravity: "center",
-              },
-            ],
-            paddingAll: "0px",
-          },
-        },
-        {
-          type: "bubble",
-          body: {
-            type: "box",
-            layout: "vertical",
-            contents: [
-              {
-                type: "image",
-                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/7_312ff866-18f2-412c-9da4-79e3b0c3fb07.jpg?v=1758603329",
-                size: "full",
-                aspectMode: "cover",
-                aspectRatio: "1:1",
-                gravity: "center",
-              },
-            ],
-            paddingAll: "0px",
-          },
-        },
-        {
-          type: "bubble",
-          body: {
-            type: "box",
-            layout: "vertical",
-            contents: [
-              {
-                type: "image",
-                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/1_509f716f-2d02-4424-aad6-5ee6c11df788.jpg?v=1758603330",
-                size: "full",
-                aspectMode: "cover",
-                aspectRatio: "1:1",
-                gravity: "center",
-              },
-            ],
-            paddingAll: "0px",
+          styles: {
+            body: {
+              separatorColor: "#E6F3FF",
+              backgroundColor: "#E6F3FF",
+            },
           },
         },
       ],
