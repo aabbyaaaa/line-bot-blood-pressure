@@ -115,7 +115,10 @@ function handlePostback(data) {
       return getFlexMessage5();
 
     default:
-      return { type: "text", text: "感謝您的查詢！" };
+      return {
+        type: "text",
+        text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。(TEST)",
+      };
   }
 }
 
@@ -1243,7 +1246,7 @@ function getFlexMessage5() {
                   label: "了解更多",
                   data: "hello",
                 },
-                offsetTop: "5px",
+                offsetTop: "3px",
               },
             ],
             spacing: "sm",
