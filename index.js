@@ -1219,7 +1219,7 @@ function getFlexMessage5() {
                   },
                 ],
                 offsetBottom: "5px",
-                height: "50px",
+                height: "28px",
               },
               {
                 type: "button",
