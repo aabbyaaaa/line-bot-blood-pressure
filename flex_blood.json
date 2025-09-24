@@ -1,0 +1,90 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://dglife.tw/cdn/shop/products/D52B-TP60.jpg?v=1733890511",
+        "aspectMode": "fit",
+        "aspectRatio": "320:220",
+        "size": "full"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "beurer 博依",
+                "size": "md",
+                "flex": 0,
+                "weight": "bold"
+              }
+            ],
+            "offsetBottom": "5px"
+          },
+          {
+            "type": "text",
+            "text": "銀離子抗菌床墊型電毯 單人定時型 TP60",
+            "size": "sm",
+            "wrap": true,
+            "offsetBottom": "5px"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "$2,900",
+                "color": "#EA4343",
+                "weight": "bold",
+                "offsetTop": "5px",
+                "offsetBottom": "5px"
+              },
+              {
+                "type": "text",
+                "text": "$3,900",
+                "decoration": "line-through",
+                "size": "14px",
+                "color": "#9E9E9E",
+                "offsetTop": "5px",
+                "offsetBottom": "5px"
+              }
+            ],
+            "offsetBottom": "5px",
+            "height": "28px"
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "color": "#005eb8",
+            "height": "sm",
+            "position": "relative",
+            "action": {
+              "type": "postback",
+              "label": "action",
+              "data": "hello"
+            },
+            "offsetTop": "5px"
+          }
+        ],
+        "spacing": "sm",
+        "paddingEnd": "10px",
+        "paddingStart": "10px"
+      },
+      "styles": {
+        "body": {
+          "separatorColor": "#E6F3FF",
+          "backgroundColor": "#E6F3FF"
+        }
+      }
+    }
+  ]
+}

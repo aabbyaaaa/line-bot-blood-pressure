@@ -558,6 +558,8 @@ function getFlexMessage() {
   };
 }
 
+// 血壓計活動
+
 function getFlexMessage2() {
   return {
     type: "flex",
@@ -629,6 +631,8 @@ function getFlexMessage2() {
     },
   };
 }
+
+// 加價構
 
 function getFlexMessage3() {
   return {
@@ -1052,6 +1056,8 @@ function getFlexMessage3() {
   };
 }
 
+// 為什麼血壓計要跟德記生活買？
+
 function getFlexMessage4() {
   return {
     type: "flex",
@@ -1154,6 +1160,8 @@ function getFlexMessage4() {
   };
 }
 
+// 血壓計推薦
+
 function getFlexMessage5() {
   return {
     type: "flex",
@@ -1166,9 +1174,9 @@ function getFlexMessage5() {
           size: "micro",
           hero: {
             type: "image",
-            url: "https://dglife.tw/cdn/shop/products/D52B-TP60.jpg?v=1733890511",
+            url: "https://dglife.tw/cdn/shop/products/2021052610273338.jpg?v=1639721163",
             aspectMode: "fit",
-            aspectRatio: "320:220",
+            aspectRatio: "320:230",
             size: "full",
           },
           body: {
@@ -1185,6 +1193,7 @@ function getFlexMessage5() {
                     size: "md",
                     flex: 0,
                     weight: "bold",
+                    offsetTop: "2px",
                   },
                 ],
                 offsetBottom: "5px",
@@ -1195,6 +1204,7 @@ function getFlexMessage5() {
                 size: "sm",
                 wrap: true,
                 offsetBottom: "5px",
+                offsetTop: "2px",
               },
               {
                 type: "box",
@@ -1219,20 +1229,21 @@ function getFlexMessage5() {
                   },
                 ],
                 offsetBottom: "5px",
-                height: "28px",
+                height: "30px",
+                offsetTop: "2px",
               },
               {
                 type: "button",
                 style: "primary",
-                color: "#005eb8",
+                color: "#FF7F50",
                 height: "sm",
                 position: "relative",
                 action: {
                   type: "postback",
-                  label: "action",
+                  label: "了解更多",
                   data: "hello",
                 },
-                offsetTop: "0px" /*改這5px->0px*/,
+                offsetTop: "5px",
               },
             ],
             spacing: "sm",
@@ -1241,8 +1252,8 @@ function getFlexMessage5() {
           },
           styles: {
             body: {
-              separatorColor: "#E6F3FF",
-              backgroundColor: "#E6F3FF",
+              separatorColor: "#FFECE6",
+              backgroundColor: "#FFECE6",
             },
           },
         },
