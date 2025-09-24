@@ -1219,6 +1219,7 @@ function getFlexMessage5() {
                   },
                 ],
                 offsetBottom: "5px",
+                height: "50px",
               },
               {
                 type: "button",
@@ -1231,7 +1232,7 @@ function getFlexMessage5() {
                   label: "action",
                   data: "hello",
                 },
-                offsetTop: "0px",
+                offsetTop: "0px" /*改這5px->0px*/,
               },
             ],
             spacing: "sm",
