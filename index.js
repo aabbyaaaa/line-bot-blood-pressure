@@ -114,18 +114,63 @@ function handlePostback(data) {
     case "category=omron_bp":
       return getFlexMessage5();
 
-    // 新增：處理 button 的 "fat" postback
     case "fat":
-      return {
-        type: "text",
-        text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。",
-      };
+      return [
+        {
+          type: "text",
+          text: "我們的客服時間是平日 09:00–17:30。如果您想購買產品，歡迎先留言告訴我們商品型號，或直接說明想買的產品（就算不知道型號也沒問題喔～）我們會在上班時間儘快回覆您，謝謝！",
+        },
+        {
+          type: "text",
+          text: "請選擇您想了解的血壓計類型：",
+          quickReply: {
+            items: [
+              {
+                type: "action",
+                action: {
+                  type: "postback",
+                  label: "手腕式血壓計",
+                  data: "category=wrist_bp",
+                  displayText: "手腕式血壓計",
+                },
+              },
+              {
+                type: "action",
+                action: {
+                  type: "postback",
+                  label: "手臂式血壓計",
+                  data: "category=arm_bp",
+                  displayText: "手臂式血壓計",
+                },
+              },
+              {
+                type: "action",
+                action: {
+                  type: "postback",
+                  label: "藍牙血壓計ZZZZZ",
+                  data: "category=bluetooth_bp",
+                  displayText: "藍牙血壓計",
+                },
+              },
+              {
+                type: "action",
+                action: {
+                  type: "postback",
+                  label: "歐姆龍血壓計ZZZ",
+                  data: "category=omron_bp",
+                  displayText: "歐姆龍血壓計",
+                },
+              },
+            ],
+          },
+        },
+      ];
 
-    // 新增：處理 button 的 "hello" postback
-    case "hello":
+    // 新增：處理 button 的 "blood" postback
+    case "blood":
       return {
         type: "text",
-        text: "血壓計XXXXXXXX",
+        text: "客",
       };
 
     default:
