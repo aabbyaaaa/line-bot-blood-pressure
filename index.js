@@ -56,43 +56,43 @@ function handlePostback(data) {
       // 左下：血壓計分類 - 回傳 Quick Reply
       return {
         type: "text",
-        text: "請選擇您想了解的血壓計類型：",
+        text: "📌請選擇您想了解的血壓計分類：",
         quickReply: {
           items: [
             {
               type: "action",
               action: {
                 type: "postback",
-                label: "手腕式血壓計",
+                label: "歐姆龍 手腕式血壓計",
                 data: "category=wrist_bp",
-                displayText: "手腕式血壓計",
+                displayText: "歐姆龍 手腕式血壓計",
               },
             },
             {
               type: "action",
               action: {
                 type: "postback",
-                label: "手臂式血壓計",
+                label: "歐姆龍 手臂式血壓計",
                 data: "category=arm_bp",
-                displayText: "手臂式血壓計",
+                displayText: "歐姆龍 手臂式血壓計",
               },
             },
             {
               type: "action",
               action: {
                 type: "postback",
-                label: "藍牙血壓計ZZZZZ",
+                label: "歐姆龍 隧道式血壓計",
                 data: "category=bluetooth_bp",
-                displayText: "藍牙血壓計",
+                displayText: "歐姆龍 隧道式血壓計",
               },
             },
             {
               type: "action",
               action: {
                 type: "postback",
-                label: "歐姆龍血壓計ZZZ",
+                label: "日本精密 血壓計",
                 data: "category=omron_bp",
-                displayText: "歐姆龍血壓計",
+                displayText: "日本精密 血壓計",
               },
             },
           ],
@@ -126,48 +126,51 @@ function handlePostback(data) {
       return [
         {
           type: "text",
-          text: "我們的客服時間是平日 09:00–17:30。",
-          text: "如果您想購買產品，歡迎先留言告訴我們商品型號，或直接說明想買的產品（就算不知道型號也沒問題喔～）我們會在上班時間儘快回覆您，謝謝！",
+          text: "客服時間：平日 09:00–17:30。",
         },
         {
           type: "text",
-          text: "請選擇您想了解的血壓計類型XXXX：",
+          text: "請留言您想購買的商品（不確定型號也沒關係），我們會盡快回覆並提供報價，價格超優，值得耐心等候！😊 ",
+        },
+        {
+          type: "text",
+          text: "📌請選擇您想了解的血壓計分類",
           quickReply: {
             items: [
               {
                 type: "action",
                 action: {
                   type: "postback",
-                  label: "手腕式血壓計",
+                  label: "歐姆龍 手腕式血壓計",
                   data: "category=wrist_bp",
-                  displayText: "手腕式血壓計",
+                  displayText: "歐姆龍 手腕式血壓計",
                 },
               },
               {
                 type: "action",
                 action: {
                   type: "postback",
-                  label: "手臂式血壓計",
+                  label: "歐姆龍 手臂式血壓計",
                   data: "category=arm_bp",
-                  displayText: "手臂式血壓計",
+                  displayText: "歐姆龍 手臂式血壓計",
                 },
               },
               {
                 type: "action",
                 action: {
                   type: "postback",
-                  label: "藍牙血壓計ZZZZZ",
+                  label: "歐姆龍 隧道式血壓計",
                   data: "category=bluetooth_bp",
-                  displayText: "藍牙血壓計",
+                  displayText: "歐姆龍 隧道式血壓計",
                 },
               },
               {
                 type: "action",
                 action: {
                   type: "postback",
-                  label: "歐姆龍血壓計ZZZ",
+                  label: "日本精密 血壓計",
                   data: "category=omron_bp",
-                  displayText: "歐姆龍血壓計",
+                  displayText: "日本精密 血壓計",
                 },
               },
             ],
@@ -675,7 +678,7 @@ function getFlexMessage2() {
             contents: [
               {
                 type: "image",
-                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/20241208.jpg?v=1758603697",
+                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/2500x1686-LINE.jpg?v=1758785698",
                 size: "full",
                 aspectMode: "cover",
                 aspectRatio: "1:1",
