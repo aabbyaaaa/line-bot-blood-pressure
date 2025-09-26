@@ -134,7 +134,7 @@ function handlePostback(data) {
         },
         {
           type: "text",
-          text: "📌請選擇您想了解的血壓計分類",
+          text: "請選擇您想了解的血壓計分類",
           quickReply: {
             items: [
               {
