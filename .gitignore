@@ -3,3 +3,4 @@ node_modules/
 .DS_Store
 *.log
 TEMP_chunk.js
+richmenus_deploy/
