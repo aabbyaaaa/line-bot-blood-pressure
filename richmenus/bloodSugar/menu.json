@@ -1,0 +1,17 @@
+{
+  "size": { "width": 2500, "height": 843 },
+  "selected": false,
+  "name": "bloodSugar",
+  "chatBarText": "血糖選單",
+  "areas": [
+    {
+      "bounds": { "x": 0, "y": 0, "width": 1250, "height": 843 },
+      "action": { "type": "postback", "data": "category=bluetooth_bp", "displayText": "藍牙量測" }
+    },
+    {
+      "bounds": { "x": 1250, "y": 0, "width": 1250, "height": 843 },
+      "action": { "type": "postback", "data": "action=why_choose_us", "displayText": "為什麼選我們" }
+    }
+  ]
+}
+
