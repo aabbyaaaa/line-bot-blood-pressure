@@ -36,20 +36,29 @@ function parseCSV(text) {
   return rows;
 }
 
+const ALT_TEXT = '熱敷墊加價購 最低69折起';
+
+function ensureDollar(s) {
+  if (!s) return s;
+  const t = String(s).trim();
+  if (t.startsWith('$')) return t;
+  return `$${t}`;
+}
+
 function toBubble(rec) {
   const image_url = rec.image_url?.trim();
   const brand = rec.brand?.trim();
   const model = rec.model?.trim();
   const subtitle = (rec.subtitle ?? '').trim();
-  const price = rec.price?.trim();
-  const price_original = (rec.price_original ?? '').trim();
+  const price = ensureDollar(rec.price?.trim());
+  const price_original = ensureDollar((rec.price_original ?? '').trim());
   const button_type = (rec.button_type ?? 'postback').trim();
   const button_label = (rec.button_label ?? '了解更多').trim();
   const btnDataOrUrl = (rec.button_data_or_url ?? '').trim();
 
   const action = button_type === 'uri'
     ? { type: 'uri', label: button_label, uri: btnDataOrUrl }
-    : { type: 'postback', label: button_label, data: btnDataOrUrl || 'fat' };
+    : { type: 'postback', label: button_label, data: btnDataOrUrl || 'fat', displayText: ALT_TEXT };
 
   return {
     type: 'bubble',
@@ -175,8 +184,10 @@ function main() {
     return 0;
   });
 
-  const altText = (recs.find(r => (r.altText || '').trim().length > 0)?.altText || '體脂計加價購，最低69折起').trim();
-  const bubbles = recs.map(r => toBubble(r));
+  // take first 10 only (order first, then row order fallback)
+  const top = recs.slice(0, 10);
+  const altText = ALT_TEXT;
+  const bubbles = top.map(r => toBubble(r));
   const message = {
     type: 'flex',
     altText,
