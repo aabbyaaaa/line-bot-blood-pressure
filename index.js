@@ -1,5 +1,7 @@
 const express = require("express");
 const line = require("@line/bot-sdk");
+const fs = require("fs");
+const path = require("path");
 require("dotenv").config();
 
 const app = express();
@@ -46,6 +48,19 @@ async function handleEvent(event) {
 // 處理 Postback 事件
 function handlePostback(data) {
   console.log("Postback data:", data);
+
+  // A 區塊：fat 由外部 JSON 回覆
+  try {
+    if (data === "fat") {
+      const p = path.join(__dirname, "bloodPressure", "flex_fat.json");
+      const raw = fs.readFileSync(p, "utf8");
+      const msg = JSON.parse(raw);
+      return msg;
+    }
+  } catch (e) {
+    console.error("Failed to load flex_fat.json", e);
+    return { type: "text", text: "內容暫時無法顯示，請稍後再試。" };
+  }
 
   switch (data) {
     case "action=add_on_scale":

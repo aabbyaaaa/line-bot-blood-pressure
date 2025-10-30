@@ -1,0 +1,1929 @@
+{
+  "type": "flex",
+  "altText": "體脂計加價購，最低69折起",
+  "contents": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/D52S-SP1215-DGS.jpg?v=1669598996",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "SUNLUS 三樂事",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "柔毛熱敷墊(中)",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "SP1215"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1050",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "1499",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/SP1213.jpg?v=1639721372",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "SUNLUS 三樂事",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "頸肩雙用熱敷柔毛墊",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "SP1213"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1575",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "2290",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/SP1212.jpg?v=1639721369",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "SUNLUS 三樂事",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "暖暖柔毛熱敷墊(大)",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "SP1212"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1260",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "1800",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/D52B-TP80.jpg?v=1672386012",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "beurer 博依",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "床墊型電毯 單人定時型",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "TP80"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2415",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "3500",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/D52B-TP60.jpg?v=1733890511",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "beurer 博依",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "床墊型電毯 單人定時型",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "TP60"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2835",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "4100",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/D52B-TP66XXL-510.jpg?v=1733890523",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "beurer 博依",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "床墊型電毯",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "TP66XXL"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "4725",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "6850",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/D52B-TP88XXL-540.jpg?v=1733890451",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "beurer 博依",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "床墊型電毯",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "TP88XXL"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "3990",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "5799",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/D52B-HK49.jpg?v=1733890490",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "beurer 博依",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "熱敷墊 腰部專用型",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "HK49"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2100",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "3050",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/HK55-800_1500x_3dbfb6f7-b36c-4fbe-ab70-b054cc3594ee.jpg?v=1640682441",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "beurer 博依",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "熱敷墊 特易固型",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "HK55"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1680",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "2450",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/D52B-TS23.jpg?v=1665716943",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "beurer 博依",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "床墊型電毯 單人長效型",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "TS23"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2100",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "2999",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/D52B-HK53.jpg?v=1733890500",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "beurer 博依",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "熱敷墊 頸背專用",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "HK53"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1785",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "2599",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/D54-WDGH330-DGS.jpg?v=1644995293",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "晶晏",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "動力式熱敷墊",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "WDGH330"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2310",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "3350",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/WDGH327.jpg?v=1639721433",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "晶晏",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "石墨烯 護腰",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "WDGH327"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2100",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "2999",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/WDGH326.jpg?v=1639721433",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "晶晏",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "石墨烯 護膝",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "WDGH326"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2100",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "2999",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/WDGH325.jpg?v=1639721433",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "晶晏",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "石墨烯 護踝",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "WDGH325"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2100",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "2999",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/WDGH324.jpg?v=1639721433",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "晶晏",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "石墨烯 護肩",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "WDGH324"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2258",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "3280",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/WDGH323.jpg?v=1639721421",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "晶晏",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "石墨烯 護肘",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "WDGH323"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1680",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "2450",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/WDGH322.jpg?v=1639721432",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "晶晏",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "石墨烯 護腕",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "WDGH322"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1680",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "2450",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/WDGH321.jpg?v=1639721421",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "晶晏",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "石墨烯 多功能帶",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "WDGH321"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2100",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "3000",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "micro",
+        "hero": {
+          "type": "image",
+          "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/WDCH328.jpg?v=1639721421",
+          "aspectMode": "fit",
+          "aspectRatio": "320:230",
+          "size": "full"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "晶晏",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold",
+                  "offsetTop": "2px"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "石墨烯 眼罩式",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "text",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px",
+              "offsetTop": "2px",
+              "text": "WDCH338"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1050",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "1550",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "30px",
+              "offsetTop": "2px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#FF7F50",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "了解更多",
+                "data": "data"
+              },
+              "offsetTop": "3px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "10px",
+          "paddingStart": "10px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#FFECE6",
+            "backgroundColor": "#FFECE6"
+          }
+        }
+      }
+    ]
+  }
+}
