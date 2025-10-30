@@ -49,12 +49,31 @@ async function handleEvent(event) {
 function handlePostback(data) {
   console.log("Postback data:", data);
 
-  // A 區塊：fat 由外部 JSON 回覆
+  // A: fat → load JSON and chunk >10 bubbles
   try {
     if (data === "fat") {
       const p = path.join(__dirname, "bloodPressure", "flex_fat.json");
       const raw = fs.readFileSync(p, "utf8");
       const msg = JSON.parse(raw);
+      if (
+        msg &&
+        msg.contents &&
+        msg.contents.type === "carousel" &&
+        Array.isArray(msg.contents.contents)
+      ) {
+        const items = msg.contents.contents;
+        if (items.length > 10) {
+          const out = [];
+          for (let i = 0; i < items.length; i += 10) {
+            out.push({
+              type: "flex",
+              altText: msg.altText || "內容",
+              contents: { type: "carousel", contents: items.slice(i, i + 10) },
+            });
+          }
+          return out;
+        }
+      }
       return msg;
     }
   } catch (e) {

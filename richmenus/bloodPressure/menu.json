@@ -6,19 +6,19 @@
   "areas": [
     {
       "bounds": { "x": 0, "y": 0, "width": 2500, "height": 852 },
-      "action": { "type": "postback", "data": "fat", "displayText": "體脂推薦" }
+      "action": { "type": "postback", "data": "fat" }
     },
     {
       "bounds": { "x": 0, "y": 852, "width": 833, "height": 834 },
-      "action": { "type": "postback", "data": "action=bp_categories", "displayText": "選擇分類" }
+      "action": { "type": "postback", "data": "action=bp_categories" }
     },
     {
       "bounds": { "x": 833, "y": 852, "width": 833, "height": 834 },
-      "action": { "type": "postback", "data": "action=current_offers", "displayText": "查看優惠" }
+      "action": { "type": "postback", "data": "action=current_offers" }
     },
     {
       "bounds": { "x": 1666, "y": 852, "width": 834, "height": 834 },
-      "action": { "type": "postback", "data": "action=why_choose_us", "displayText": "為什麼選我們" }
+      "action": { "type": "postback", "data": "action=why_choose_us" }
     }
   ]
 }
