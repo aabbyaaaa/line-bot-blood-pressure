@@ -215,7 +215,7 @@ function handlePostback(data) {
     default:
       return {
         type: "text",
-        text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。(TEST)",
+        text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。(１１０１)",
       };
   }
 }
