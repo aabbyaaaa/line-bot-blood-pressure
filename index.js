@@ -1,6 +1,6 @@
 const express = require("express");
 const line = require("@line/bot-sdk");
-const fs = require("fs");
+const bp = require("./handlers/bloodPressure");
 const path = require("path");
 require("dotenv").config();
 
@@ -49,36 +49,9 @@ async function handleEvent(event) {
 function handlePostback(data) {
   console.log("Postback data:", data);
 
-  // A: fat → load JSON and chunk >10 bubbles
-  try {
-    if (data === "fat") {
-      const p = path.join(__dirname, "bloodPressure", "flex_fat.json");
-      const raw = fs.readFileSync(p, "utf8");
-      const msg = JSON.parse(raw);
-      if (
-        msg &&
-        msg.contents &&
-        msg.contents.type === "carousel" &&
-        Array.isArray(msg.contents.contents)
-      ) {
-        const items = msg.contents.contents;
-        if (items.length > 10) {
-          const out = [];
-          for (let i = 0; i < items.length; i += 10) {
-            out.push({
-              type: "flex",
-              altText: msg.altText || "內容",
-              contents: { type: "carousel", contents: items.slice(i, i + 10) },
-            });
-          }
-          return out;
-        }
-      }
-      return msg;
-    }
-  } catch (e) {
-    console.error("Failed to load flex_fat.json", e);
-    return { type: "text", text: "內容暫時無法顯示，請稍後再試。" };
+  // A: fat → delegate to handler (loads JSON and chunks if >10)
+  if (data === "fat") {
+    return bp.handleFat();
   }
 
   switch (data) {
