@@ -39,18 +39,38 @@ async function deleteAll() {
   }
 }
 
+function findImage(dir) {
+  const candidates = ['image.png', 'image.jpg', 'image.jpeg'];
+  for (const name of candidates) {
+    const p = path.join(dir, name);
+    if (fs.existsSync(p)) return p;
+  }
+  return null;
+}
+
 async function createFromDir(dir) {
   const jsonPath = path.join(dir, 'menu.json');
-  const imgPath = path.join(dir, 'image.png');
+  const imgPath = findImage(dir);
   if (!fs.existsSync(jsonPath)) throw new Error(`Missing ${jsonPath}`);
-  if (!fs.existsSync(imgPath)) throw new Error(`Missing ${imgPath}`);
+  if (!imgPath) throw new Error(`Missing image file (image.png|image.jpg) in ${dir}`);
 
   const menu = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
   const richMenuId = await client.createRichMenu(menu);
   console.log('Created rich menu', menu.name, richMenuId);
 
+  // Validate image size (< 1MB per LINE spec)
+  const stat = fs.statSync(imgPath);
+  const max = 1024 * 1024; // 1MB
+  if (stat.size > max) {
+    throw new Error(`Image too large: ${stat.size} bytes (> 1MB). Please compress below 1MB.`);
+  }
+
+  // Detect content type
+  const lower = imgPath.toLowerCase();
+  const contentType = lower.endsWith('.png') ? 'image/png' : 'image/jpeg';
+
   const imageStream = fs.createReadStream(imgPath);
-  await client.setRichMenuImage(richMenuId, imageStream, 'image/png');
+  await client.setRichMenuImage(richMenuId, imageStream, contentType);
   console.log('Uploaded image for', richMenuId);
   return { name: menu.name, id: richMenuId };
 }
@@ -92,4 +112,3 @@ async function deployAll(rootDir, defaultName) {
     process.exit(1);
   }
 })();
-
