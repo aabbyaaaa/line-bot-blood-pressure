@@ -55,10 +55,12 @@ function toBubble(rec) {
   const button_type = (rec.button_type ?? 'postback').trim();
   const button_label = (rec.button_label ?? '了解更多').trim();
   const btnDataOrUrl = (rec.button_data_or_url ?? '').trim();
+  const displayText = (rec.button_display_text ?? '').trim();
 
   const action = button_type === 'uri'
     ? { type: 'uri', label: button_label, uri: btnDataOrUrl }
-    : { type: 'postback', label: button_label, data: btnDataOrUrl || 'fat', displayText: ALT_TEXT };
+    : { type: 'postback', label: button_label, data: btnDataOrUrl || 'fat_info' };
+  if (button_type !== 'uri' && displayText) action.displayText = displayText;
 
   return {
     type: 'bubble',

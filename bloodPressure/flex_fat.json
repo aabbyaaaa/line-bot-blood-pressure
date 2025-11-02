@@ -84,8 +84,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data",
-                "displayText": "熱敷墊加價購 最低69折起"
+                "data": "data"
               },
               "offsetTop": "3px"
             }
@@ -181,8 +180,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data",
-                "displayText": "熱敷墊加價購 最低69折起"
+                "data": "data"
               },
               "offsetTop": "3px"
             }
@@ -278,8 +276,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data",
-                "displayText": "熱敷墊加價購 最低69折起"
+                "data": "data"
               },
               "offsetTop": "3px"
             }
@@ -375,8 +372,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data",
-                "displayText": "熱敷墊加價購 最低69折起"
+                "data": "data"
               },
               "offsetTop": "3px"
             }
@@ -472,8 +468,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data",
-                "displayText": "熱敷墊加價購 最低69折起"
+                "data": "data"
               },
               "offsetTop": "3px"
             }
@@ -569,8 +564,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data",
-                "displayText": "熱敷墊加價購 最低69折起"
+                "data": "data"
               },
               "offsetTop": "3px"
             }
@@ -666,8 +660,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data",
-                "displayText": "熱敷墊加價購 最低69折起"
+                "data": "data"
               },
               "offsetTop": "3px"
             }
@@ -763,8 +756,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data",
-                "displayText": "熱敷墊加價購 最低69折起"
+                "data": "data"
               },
               "offsetTop": "3px"
             }
@@ -860,8 +852,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data",
-                "displayText": "熱敷墊加價購 最低69折起"
+                "data": "data"
               },
               "offsetTop": "3px"
             }
@@ -957,8 +948,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data",
-                "displayText": "熱敷墊加價購 最低69折起"
+                "data": "data"
               },
               "offsetTop": "3px"
             }
