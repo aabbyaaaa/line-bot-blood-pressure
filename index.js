@@ -1,15 +1,6 @@
 const express = require("express");
-  // handled in bp.handleFat() above
-  }
-  if (data === "fat_info" || data.startsWith("fat_detail:")) {
-    return bp.handleFatInfo();
-  }
-  if (data.startsWith("bp:")) {
-    return bp.handleProductInquiry();
-  }
 const line = require("@line/bot-sdk");
 const bp = require("./handlers/bloodPressure");
-const path = require("path");
 require("dotenv").config();
 
 const app = express();
@@ -60,6 +51,12 @@ function handlePostback(data) {
   // A: fat → delegate to handler (loads JSON and chunks if >10)
   if (data === "fat") {
     return bp.handleFat();
+  }
+  if (data === "fat_info" || (typeof data === "string" && data.startsWith("fat_detail:"))) {
+    return bp.handleFatInfo();
+  }
+  if (typeof data === "string" && data.startsWith("bp:")) {
+    return bp.handleProductInquiry();
   }
 
   // Blood pressure flows routed to handlers
