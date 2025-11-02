@@ -125,7 +125,7 @@ function handleCategoryKey(key) {
     for (let i=0;i<finalItems.length;i+=10) {
       chunks.push({ type:'flex', altText: msg.altText || '血壓計商品', contents:{ type:'carousel', contents: finalItems.slice(i,i+10) }});
     }
-    chunks.push({ type:'text', text:'📌請選擇您想了解的血壓計分類：', quickReply:{ items: quickReplyItems() } });
+    // 不再在選分類後附加提示文字，避免與商品按鈕回覆重複
     return chunks;
   } catch (e) {
     console.error('Failed to load flex_blood.json', e); return { type:'text', text:'內容暫時無法顯示，請稍後再試。' };
