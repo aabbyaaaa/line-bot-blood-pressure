@@ -39,5 +39,110 @@ function handleFat() {
 
 module.exports = {
   handleFat,
+  handleBloodIntro,
+  handleBpCategories,
+  handleCategory,
+  handleOffers,
+  handleWhyUs,
 };
 
+function quickReplyItems() {
+  return [
+    { type: 'action', action: { type: 'postback', label: '歐姆龍 手臂式', data: 'category=omron_arm', displayText: '歐姆龍 手臂式' } },
+    { type: 'action', action: { type: 'postback', label: '歐姆龍 血壓計（手腕、隧道）', data: 'category=omron_other', displayText: '歐姆龍 血壓計（手腕、隧道）' } },
+    { type: 'action', action: { type: 'postback', label: 'CITIZEN 星辰 血壓計', data: 'category=citizen_bp', displayText: 'CITIZEN 星辰 血壓計' } },
+    { type: 'action', action: { type: 'postback', label: 'NISSEI 日本精密 血壓計', data: 'category=nissei_bp', displayText: 'NISSEI 日本精密 血壓計' } },
+  ];
+}
+
+function handleBloodIntro() {
+  return [
+    { type: 'text', text: '客服時間：平日 09:00–17:30。' },
+    { type: 'text', text: '請留言您想購買的商品（不確定型號也沒關係），我們會盡快回覆並提供報價，價格超優，值得耐心等候！😊 ' },
+    { type: 'text', text: '請選擇您想了解的血壓計分類', quickReply: { items: quickReplyItems() } },
+  ];
+}
+
+function handleBpCategories() {
+  return { type: 'text', text: '📌請選擇您想了解的血壓計分類：', quickReply: { items: quickReplyItems() } };
+}
+
+function loadJson(relPath) {
+  const filePath = path.join(__dirname, '..', relPath);
+  const raw = fs.readFileSync(filePath, 'utf8');
+  return JSON.parse(raw);
+}
+
+function handleOffers() {
+  try {
+    return loadJson(path.join('bloodPressure','flex_discount202509.json'));
+  } catch (e) {
+    console.error('Failed to load discount JSON', e); return { type: 'text', text: '內容暫時無法顯示，請稍後再試。' };
+  }
+}
+
+function handleWhyUs() {
+  try {
+    return loadJson(path.join('bloodPressure','flex_whyus.json'));
+  } catch (e) {
+    console.error('Failed to load whyus JSON', e); return { type: 'text', text: '內容暫時無法顯示，請稍後再試。' };
+  }
+}
+
+function handleCategoryKey(key) {
+  try {
+    const msg = loadJson(path.join('bloodPressure','flex_blood.json'));
+    const items = Array.isArray(msg?.contents?.contents) ? msg.contents.contents : [];
+    // No internal flags in output; filtering relies on CSV build ordering per category
+    // Instead, rebuild per category from CSV grouping by matching label in Quick Reply
+    // Here we fallback to using a category marker if present (_category) else include all
+    const filtered = items.filter(it => true); // placeholder, will use source with _category removed
+    // Since builder strips internals, we instead regenerate groups by reading CSV again if present
+    let finalItems = filtered;
+    try {
+      const csv = fs.readFileSync(path.join(__dirname,'..','bloodPressure','flex_blood.csv'),'utf8');
+      const rows = parseCSV(csv);
+      const header = rows[0].map(h=>h.trim());
+      const data = rows.slice(1).map(cols=>{ const o={}; header.forEach((h,i)=>o[h]=cols[i]??''); return o; });
+      const ids = data.filter(r=> (r.category||'').trim()===key).sort((a,b)=>{
+        const ao = Number(a.order||0), bo = Number(b.order||0);
+        if (!isNaN(ao) && !isNaN(bo) && ao!==bo) return ao-bo; return 0;
+      });
+      // Map by id to output items that have postback data including sku or image url match
+      const out = [];
+      for (const rec of ids) {
+        const url = (rec.image_url||'').trim();
+        const found = items.find(b => b?.header?.contents?.[0]?.url === url);
+        if (found) out.push(found);
+      }
+      if (out.length) finalItems = out;
+    } catch(_){}
+    // chunking
+    const chunks = [];
+    for (let i=0;i<finalItems.length;i+=10) {
+      chunks.push({ type:'flex', altText: msg.altText || '血壓計商品', contents:{ type:'carousel', contents: finalItems.slice(i,i+10) }});
+    }
+    const reply = chunks.length ? chunks : [{ type:'text', text:'目前此分類暫無資料' }];
+    // add same Quick Reply prompt after
+    reply.push({ type:'text', text:'📌請選擇您想了解的血壓計分類：', quickReply:{ items: quickReplyItems() } });
+    return reply;
+  } catch (e) {
+    console.error('Failed to load flex_blood.json', e); return { type:'text', text:'內容暫時無法顯示，請稍後再試。' };
+  }
+}
+
+// lightweight CSV parser for handler internal use
+function parseCSV(text) {
+  const rows = [];
+  let i=0, field='', row=[], inq=false;
+  while(i<text.length){ const ch=text[i];
+    if(inq){ if(ch==='"'){ if(text[i+1]==='"'){ field+='"'; i+=2; continue;} inq=false; i++; continue;} field+=ch; i++; continue; }
+    if(ch==='"'){ inq=true; i++; continue; }
+    if(ch===','){ row.push(field); field=''; i++; continue; }
+    if(ch==='\n'||ch==='\r'){ if(ch==='\r'&&text[i+1]==='\n') i++; row.push(field); field=''; rows.push(row); row=[]; i++; continue; }
+    field+=ch; i++; }
+  if(field.length>0||row.length>0){ row.push(field); rows.push(row); }
+  return rows.filter(r=>r.length&&r.some(c=>(c||'').trim().length>0));
+}
+
+function handleCategory(key) { return handleCategoryKey(key); }

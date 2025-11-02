@@ -1,0 +1,3503 @@
+{
+  "type": "flex",
+  "altText": "歐姆龍OMRON 手臂式血壓計",
+  "contents": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/HEM7156.jpg?v=1717554014",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "保固3年",
+                  "size": "xs",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ],
+              "position": "absolute",
+              "flex": 0,
+              "width": "60px",
+              "height": "25px",
+              "backgroundColor": "#EC3D44",
+              "cornerRadius": "100px",
+              "offsetTop": "18px",
+              "offsetStart": "10px",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "歐姆龍 OMRON",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手臂式血壓計 HEM7156",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$1,980",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/118de98a750242ac110004.jpg?v=1718671087",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "保固3年",
+                  "size": "xs",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ],
+              "position": "absolute",
+              "flex": 0,
+              "width": "60px",
+              "height": "25px",
+              "backgroundColor": "#EC3D44",
+              "cornerRadius": "100px",
+              "offsetTop": "18px",
+              "offsetStart": "10px",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "歐姆龍 OMRON",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手腕式血壓計 HEM6161",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$1,580",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/D52-DSA10J-DGS.jpg?v=1642749494",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "NISSEI 日本精密",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "電子血壓計 DS-A10J",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$1,680",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/CHW301.jpg?v=1639721023",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CITIZEN 星辰",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手腕式電子血壓計 CHW301",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$1,380",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/HEM7157T.jpg?v=1717554164",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "保固3+2年",
+                  "size": "xs",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ],
+              "position": "absolute",
+              "flex": 0,
+              "width": "60px",
+              "height": "25px",
+              "backgroundColor": "#EC3D44",
+              "cornerRadius": "100px",
+              "offsetTop": "18px",
+              "offsetStart": "10px",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "歐姆龍 OMRON",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手臂式血壓計 HEM7157T",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$2,280",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/Inked3430c2355a8a7cc925f95d775317d470_LI.jpg?v=1656849196",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "保固3年",
+                  "size": "xs",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ],
+              "position": "absolute",
+              "flex": 0,
+              "width": "60px",
+              "height": "25px",
+              "backgroundColor": "#EC3D44",
+              "cornerRadius": "100px",
+              "offsetTop": "18px",
+              "offsetStart": "10px",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "歐姆龍 OMRON",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "隧道式血壓計HEM1000",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$6,980",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/D52-DSB10J.jpg?v=1647221991",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "NISSEI 日本精密",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "電子血壓計 DS-B10J",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$1,880",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/CH-650F.jpg?v=1639721015",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CITIZEN 星辰",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手腕式電子血壓計 CH650F",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$1,750",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/202012311256578_1.jpg?v=1717553667",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "保固3年",
+                  "size": "xs",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ],
+              "position": "absolute",
+              "flex": 0,
+              "width": "60px",
+              "height": "25px",
+              "backgroundColor": "#EC3D44",
+              "cornerRadius": "100px",
+              "offsetTop": "18px",
+              "offsetStart": "10px",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "歐姆龍 OMRON",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手臂式血壓計 JPN616T",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$3,580",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/e141dcff5e149bf4d5a31ea7e599a770.jpg?v=1656848872",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "保固3+2年",
+                  "size": "xs",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ],
+              "position": "absolute",
+              "flex": 0,
+              "width": "60px",
+              "height": "25px",
+              "backgroundColor": "#EC3D44",
+              "cornerRadius": "100px",
+              "offsetTop": "18px",
+              "offsetStart": "10px",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "歐姆龍 OMRON",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手腕式血壓計 HEM6232T",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$3,180",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/DS-G10J.jpg?v=1639721124",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "NISSEI 日本精密",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "電子血壓計 DS-G10J",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$2,180",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/CH-551.jpg?v=1639721024",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CITIZEN 星辰",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手臂式電子血壓計 CH551",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$2,380",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/D52O-HEM7143T1-1-450.jpg?v=1737433293",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "保固3年",
+                  "size": "xs",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ],
+              "position": "absolute",
+              "flex": 0,
+              "width": "60px",
+              "height": "25px",
+              "backgroundColor": "#EC3D44",
+              "cornerRadius": "100px",
+              "offsetTop": "18px",
+              "offsetStart": "10px",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "歐姆龍 OMRON",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手臂式血壓計 HEM-7143T1",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$1,780",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/3-1200.jpg?v=1746759579",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "保固3年",
+                  "size": "xs",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ],
+              "position": "absolute",
+              "flex": 0,
+              "width": "60px",
+              "height": "25px",
+              "backgroundColor": "#EC3D44",
+              "cornerRadius": "100px",
+              "offsetTop": "18px",
+              "offsetStart": "10px",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "歐姆龍 OMRON",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "藍牙隧道式血壓計 HCR-1902T2",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$11,250",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/DS-N10J.jpg?v=1639721129",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "NISSEI 日本精密",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "電子血壓計 DS-N10J",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$2,780",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/Inked2002931717picture_357251_LI.jpg?v=1650714596",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CITIZEN 星辰",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手臂式電子血壓計 CHU302",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$1,900",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/7155T-1.jpg?v=1737433759",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "保固3+2年",
+                  "size": "xs",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ],
+              "position": "absolute",
+              "flex": 0,
+              "width": "60px",
+              "height": "25px",
+              "backgroundColor": "#EC3D44",
+              "cornerRadius": "100px",
+              "offsetTop": "18px",
+              "offsetStart": "10px",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "歐姆龍 OMRON",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手臂式血壓計 HEM7155T",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$2,780",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/D52O-HBP9030-DGS.jpg?v=1740742452",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "保固1年",
+                  "size": "xs",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ],
+              "position": "absolute",
+              "flex": 0,
+              "width": "60px",
+              "height": "25px",
+              "backgroundColor": "#EC3D44",
+              "cornerRadius": "100px",
+              "offsetTop": "18px",
+              "offsetStart": "10px",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "歐姆龍 OMRON",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "隧道式血壓計HBP9030",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$72,000",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/D52-DSG20J.jpg?v=1715326152",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "NISSEI 日本精密",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手臂式血壓計 DS-G20J",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$2,180",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/ch_657fbk_img03.jpg?v=1650714406",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CITIZEN 星辰",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手腕式電子血壓計 CH657F-BK",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$2,200",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/2018020911181874_1.jpg?v=1656849039",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "保固3+2年",
+                  "size": "xs",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ],
+              "position": "absolute",
+              "flex": 0,
+              "width": "60px",
+              "height": "25px",
+              "backgroundColor": "#EC3D44",
+              "cornerRadius": "100px",
+              "offsetTop": "18px",
+              "offsetStart": "10px",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "歐姆龍 OMRON",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手臂式血壓計 HEM7600T",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$4,580",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/D52O-B1003-2-DGS.jpg?v=1699318626",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "保固3年",
+                  "size": "xs",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ],
+              "position": "absolute",
+              "flex": 0,
+              "width": "60px",
+              "height": "25px",
+              "backgroundColor": "#EC3D44",
+              "cornerRadius": "100px",
+              "offsetTop": "18px",
+              "offsetStart": "10px",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "歐姆龍 OMRON",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "原廠變壓器",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$525",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/D52-WS20J-DGS.jpg?v=1754463975",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "NISSEI 日本精密",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手腕式血壓計 WS-20J",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$2,480",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/chua_516_img02.jpg?v=1640682639",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CITIZEN 星辰",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手臂式電子血壓計 CHUA516",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$3,280",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/JPN710T.jpg?v=1717554325",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "保固3+2年",
+                  "size": "xs",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ],
+              "position": "absolute",
+              "flex": 0,
+              "width": "60px",
+              "height": "25px",
+              "backgroundColor": "#EC3D44",
+              "cornerRadius": "100px",
+              "offsetTop": "18px",
+              "offsetStart": "10px",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "歐姆龍 OMRON",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手臂式血壓計 JPN710T",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$4,580",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/D52-DSN20J-1440.jpg?v=1754470868",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "NISSEI 日本精密",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手臂式血壓計 DS-N20J",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$2,780",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/CHUC515.jpg?v=1639721029",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CITIZEN 星辰",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手臂式電子血壓計 CHUC515",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$3,180",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/2-04_2884c3b5-6546-4b43-8c20-c0b53ac245e7.jpg?v=1740742941",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "保固3+2年",
+                  "size": "xs",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ],
+              "position": "absolute",
+              "flex": 0,
+              "width": "60px",
+              "height": "25px",
+              "backgroundColor": "#EC3D44",
+              "cornerRadius": "100px",
+              "offsetTop": "18px",
+              "offsetStart": "10px",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "歐姆龍 OMRON",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "上臂式血壓計 HCR-7104",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$2,380",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/DSK1011J-01.jpg?v=1639721134",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "NISSEI 日本精密",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "DSA10J/DSB10J 專用變壓器",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$300",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/CHU703.jpg?v=1639721029",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CITIZEN 星辰",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手臂式電子血壓計 CHU703",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$2,850",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/D52O-HEM7141T1-2-450.jpg?v=1740742586",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "保固3年",
+                  "size": "xs",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ],
+              "position": "absolute",
+              "flex": 0,
+              "width": "60px",
+              "height": "25px",
+              "backgroundColor": "#EC3D44",
+              "cornerRadius": "100px",
+              "offsetTop": "18px",
+              "offsetStart": "10px",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "歐姆龍 OMRON",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手臂式血壓計 HEM-7141T1",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$-",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/products/DSG10J-01.jpg?v=1639721126",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "NISSEI 日本精密",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "DS-G10J 專用變壓器",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$300",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/D52-AC-230CZ-J.jpg?v=1692942331",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CITIZEN 星辰",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "專用AC變壓器",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$400",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "deca",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/D52O-HCR7800T-450.jpg?v=1740742808",
+              "size": "full",
+              "aspectRatio": "320:220",
+              "aspectMode": "fit"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "保固3+2年",
+                  "size": "xs",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "gravity": "center"
+                }
+              ],
+              "position": "absolute",
+              "flex": 0,
+              "width": "60px",
+              "height": "25px",
+              "backgroundColor": "#EC3D44",
+              "cornerRadius": "100px",
+              "offsetTop": "18px",
+              "offsetStart": "10px",
+              "paddingAll": "2px",
+              "paddingStart": "4px",
+              "paddingEnd": "4px"
+            }
+          ]
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "歐姆龍 OMRON",
+                  "size": "md",
+                  "flex": 0,
+                  "weight": "bold"
+                }
+              ],
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "text",
+              "text": "手臂式心電血壓計 HCR-7800T",
+              "size": "sm",
+              "wrap": true,
+              "offsetBottom": "5px"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "$優惠價 ❓❓",
+                  "color": "#EA4343",
+                  "weight": "bold",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                },
+                {
+                  "type": "text",
+                  "text": "$8,980",
+                  "decoration": "line-through",
+                  "size": "14px",
+                  "color": "#9E9E9E",
+                  "offsetTop": "5px",
+                  "offsetBottom": "5px"
+                }
+              ],
+              "offsetBottom": "5px",
+              "height": "28px"
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#005eb8",
+              "height": "sm",
+              "position": "relative",
+              "action": {
+                "type": "postback",
+                "label": "詢價最低⬊79折起",
+                "data": "data"
+              },
+              "offsetTop": "5px"
+            }
+          ],
+          "spacing": "sm",
+          "paddingEnd": "15px",
+          "paddingStart": "15px"
+        },
+        "styles": {
+          "body": {
+            "separatorColor": "#E6F3FF",
+            "backgroundColor": "#E6F3FF"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -54,6 +54,32 @@ function handlePostback(data) {
     return bp.handleFat();
   }
 
+  // Blood pressure flows routed to handlers
+  if (data === "blood") {
+    return bp.handleBloodIntro();
+  }
+  if (data === "action=bp_categories") {
+    return bp.handleBpCategories();
+  }
+  if (data === "action=current_offers") {
+    return bp.handleOffers();
+  }
+  if (data === "action=why_choose_us") {
+    return bp.handleWhyUs();
+  }
+  if (data === "category=omron_arm") {
+    return bp.handleCategory("omron_arm");
+  }
+  if (data === "category=omron_other") {
+    return bp.handleCategory("omron_other");
+  }
+  if (data === "category=citizen_bp") {
+    return bp.handleCategory("citizen_bp");
+  }
+  if (data === "category=nissei_bp") {
+    return bp.handleCategory("nissei_bp");
+  }
+
   switch (data) {
     case "action=add_on_scale":
       // 上方區塊：體脂計加購
