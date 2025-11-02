@@ -60,7 +60,7 @@ function toBubble(rec) {
   const brand = (rec.brand || '').trim();
   const title = (rec.title || '').trim();
   const subtitle = (rec.subtitle || '').trim();
-  const price = ensureDollar((rec.price || '').trim());
+  const price = (rec.price || '').trim();
   const price_original = ensureDollar((rec.price_original || '').trim());
   const button_type = ((rec.button_type || 'postback')).trim().toLowerCase();
   const button_label = (rec.button_label || '了解更多').trim();
@@ -93,7 +93,7 @@ function toBubble(rec) {
         ...(subtitle ? [ { type: 'text', text: subtitle, size: 'sm', wrap: true, offsetBottom: '5px' } ] : []),
         { type: 'box', layout: 'baseline', contents: [
             { type: 'text', text: price, color: '#EA4343', weight: 'bold', offsetTop: '5px', offsetBottom: '5px' },
-            ...(price_original ? [{ type: 'text', text: price_original, decoration: 'line-through', size: '14px', color: '#9E9E9E', offsetTop: '5px', offsetBottom: '5px' }] : []),
+            ...(price_original ? [{ type: 'text', text: price_original, decoration: 'line-through', size: '14px', color: '#9E9E9E', offsetTop: '5px', offsetBottom: '5px', offsetStart: '20px' }] : []),
           ],
           offsetBottom: '5px', height: '28px'
         },

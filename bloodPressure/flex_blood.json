@@ -76,7 +76,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -89,7 +89,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -192,7 +193,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -205,7 +206,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -283,7 +285,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -296,7 +298,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -374,7 +377,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -387,7 +390,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -490,7 +494,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -503,7 +507,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -606,7 +611,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -619,7 +624,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -697,7 +703,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -710,7 +716,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -788,7 +795,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -801,7 +808,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -904,7 +912,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -917,7 +925,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -1020,7 +1029,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -1033,7 +1042,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -1111,7 +1121,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -1124,7 +1134,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -1202,7 +1213,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -1215,7 +1226,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -1318,7 +1330,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -1331,7 +1343,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -1434,7 +1447,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -1447,7 +1460,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -1525,7 +1539,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -1538,7 +1552,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -1616,7 +1631,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -1629,7 +1644,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -1732,7 +1748,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -1745,7 +1761,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -1848,7 +1865,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -1861,7 +1878,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -1939,7 +1957,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -1952,7 +1970,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -2030,7 +2049,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -2043,7 +2062,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -2146,7 +2166,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -2159,7 +2179,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -2262,7 +2283,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -2275,7 +2296,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -2353,7 +2375,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -2366,7 +2388,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -2444,7 +2467,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -2457,7 +2480,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -2560,7 +2584,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -2573,7 +2597,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -2651,7 +2676,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -2664,7 +2689,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -2742,7 +2768,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -2755,7 +2781,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -2858,7 +2885,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -2871,7 +2898,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -2949,7 +2977,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -2962,7 +2990,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -3040,7 +3069,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -3053,7 +3082,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -3156,7 +3186,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -3169,7 +3199,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -3247,7 +3278,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -3260,7 +3291,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -3338,7 +3370,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -3351,7 +3383,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
@@ -3454,7 +3487,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "$優惠價 ❓❓",
+                  "text": "優惠價 ❓❓",
                   "color": "#EA4343",
                   "weight": "bold",
                   "offsetTop": "5px",
@@ -3467,7 +3500,8 @@
                   "size": "14px",
                   "color": "#9E9E9E",
                   "offsetTop": "5px",
-                  "offsetBottom": "5px"
+                  "offsetBottom": "5px",
+                  "offsetStart": "20px"
                 }
               ],
               "offsetBottom": "5px",
