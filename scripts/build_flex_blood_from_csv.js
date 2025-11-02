@@ -135,8 +135,19 @@ function main() {
   const bubblesOut = stripInternal(bubblesRaw);
   const message = { type: 'flex', altText, contents: { type: 'carousel', contents: bubblesOut } };
   fs.writeFileSync(OUT_PATH, JSON.stringify(message, null, 2), 'utf8');
-  console.log(`Wrote ${OUT_PATH} with ${bubblesOut.length} bubbles.`);
+
+  // Build category index for runtime filtering without reading CSV
+  const indexByCategory = {};
+  const categories = ['omron_arm','omron_other','citizen_bp','nissei_bp'];
+  for (const cat of categories) indexByCategory[cat] = [];
+  bubblesRaw.forEach((b, i) => {
+    const cat = (b._category || '').trim();
+    if (cat && indexByCategory[cat]) indexByCategory[cat].push(i);
+  });
+  const idxOutPath = path.join('bloodPressure', 'flex_blood_index.json');
+  fs.writeFileSync(idxOutPath, JSON.stringify({ altText, categories: indexByCategory }, null, 2), 'utf8');
+
+  console.log(`Wrote ${OUT_PATH} with ${bubblesOut.length} bubbles. Index saved to ${idxOutPath}.`);
 }
 
 main();
-

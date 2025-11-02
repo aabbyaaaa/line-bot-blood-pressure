@@ -1,6 +1,18 @@
 const fs = require("fs");
 const path = require("path");
 
+// Statically include JSON so serverless bundlers ship files
+let flexFat;
+let flexBlood;
+let flexBloodIndex;
+let flexOffers;
+let flexWhyUs;
+try { flexFat = require("../bloodPressure/flex_fat.json"); } catch(_) {}
+try { flexBlood = require("../bloodPressure/flex_blood.json"); } catch(_) {}
+try { flexBloodIndex = require("../bloodPressure/flex_blood_index.json"); } catch(_) {}
+try { flexOffers = require("../bloodPressure/flex_discount202509.json"); } catch(_) {}
+try { flexWhyUs = require("../bloodPressure/flex_whyus.json"); } catch(_) {}
+
 function chunkFlexIfNeeded(msg) {
   try {
     if (
@@ -26,11 +38,10 @@ function chunkFlexIfNeeded(msg) {
 }
 
 function handleFat() {
-  const filePath = path.join(__dirname, "..", "bloodPressure", "flex_fat.json");
+  if (flexFat) return chunkFlexIfNeeded(flexFat);
   try {
-    const raw = fs.readFileSync(filePath, "utf8");
-    const msg = JSON.parse(raw);
-    return chunkFlexIfNeeded(msg);
+    const raw = fs.readFileSync(path.join(__dirname, "..", "bloodPressure", "flex_fat.json"), "utf8");
+    return chunkFlexIfNeeded(JSON.parse(raw));
   } catch (e) {
     console.error("Failed to load flex_fat.json", e);
     return { type: "text", text: "內容暫時無法顯示，請稍後再試。" };
@@ -74,58 +85,30 @@ function loadJson(relPath) {
 }
 
 function handleOffers() {
-  try {
-    return loadJson(path.join('bloodPressure','flex_discount202509.json'));
-  } catch (e) {
-    console.error('Failed to load discount JSON', e); return { type: 'text', text: '內容暫時無法顯示，請稍後再試。' };
-  }
+  if (flexOffers) return flexOffers;
+  try { return loadJson(path.join('bloodPressure','flex_discount202509.json')); }
+  catch (e) { console.error('Failed to load discount JSON', e); return { type: 'text', text: '內容暫時無法顯示，請稍後再試。' }; }
 }
 
 function handleWhyUs() {
-  try {
-    return loadJson(path.join('bloodPressure','flex_whyus.json'));
-  } catch (e) {
-    console.error('Failed to load whyus JSON', e); return { type: 'text', text: '內容暫時無法顯示，請稍後再試。' };
-  }
+  if (flexWhyUs) return flexWhyUs;
+  try { return loadJson(path.join('bloodPressure','flex_whyus.json')); }
+  catch (e) { console.error('Failed to load whyus JSON', e); return { type: 'text', text: '內容暫時無法顯示，請稍後再試。' }; }
 }
 
 function handleCategoryKey(key) {
   try {
-    const msg = loadJson(path.join('bloodPressure','flex_blood.json'));
+    const msg = flexBlood || loadJson(path.join('bloodPressure','flex_blood.json'));
     const items = Array.isArray(msg?.contents?.contents) ? msg.contents.contents : [];
-    // No internal flags in output; filtering relies on CSV build ordering per category
-    // Instead, rebuild per category from CSV grouping by matching label in Quick Reply
-    // Here we fallback to using a category marker if present (_category) else include all
-    const filtered = items.filter(it => true); // placeholder, will use source with _category removed
-    // Since builder strips internals, we instead regenerate groups by reading CSV again if present
-    let finalItems = filtered;
-    try {
-      const csv = fs.readFileSync(path.join(__dirname,'..','bloodPressure','flex_blood.csv'),'utf8');
-      const rows = parseCSV(csv);
-      const header = rows[0].map(h=>h.trim());
-      const data = rows.slice(1).map(cols=>{ const o={}; header.forEach((h,i)=>o[h]=cols[i]??''); return o; });
-      const ids = data.filter(r=> (r.category||'').trim()===key).sort((a,b)=>{
-        const ao = Number(a.order||0), bo = Number(b.order||0);
-        if (!isNaN(ao) && !isNaN(bo) && ao!==bo) return ao-bo; return 0;
-      });
-      // Map by id to output items that have postback data including sku or image url match
-      const out = [];
-      for (const rec of ids) {
-        const url = (rec.image_url||'').trim();
-        const found = items.find(b => b?.header?.contents?.[0]?.url === url);
-        if (found) out.push(found);
-      }
-      if (out.length) finalItems = out;
-    } catch(_){}
-    // chunking
+    let idxs = (flexBloodIndex && flexBloodIndex.categories && flexBloodIndex.categories[key]) || [];
+    let finalItems = idxs.length ? idxs.map(i => items[i]).filter(Boolean) : items;
+    if (!finalItems.length) return { type:'text', text:'目前此分類暫無資料' };
     const chunks = [];
     for (let i=0;i<finalItems.length;i+=10) {
       chunks.push({ type:'flex', altText: msg.altText || '血壓計商品', contents:{ type:'carousel', contents: finalItems.slice(i,i+10) }});
     }
-    const reply = chunks.length ? chunks : [{ type:'text', text:'目前此分類暫無資料' }];
-    // add same Quick Reply prompt after
-    reply.push({ type:'text', text:'📌請選擇您想了解的血壓計分類：', quickReply:{ items: quickReplyItems() } });
-    return reply;
+    chunks.push({ type:'text', text:'📌請選擇您想了解的血壓計分類：', quickReply:{ items: quickReplyItems() } });
+    return chunks;
   } catch (e) {
     console.error('Failed to load flex_blood.json', e); return { type:'text', text:'內容暫時無法顯示，請稍後再試。' };
   }
