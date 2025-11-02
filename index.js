@@ -1,4 +1,12 @@
 const express = require("express");
+  // handled in bp.handleFat() above
+  }
+  if (data === "fat_info" || data.startsWith("fat_detail:")) {
+    return bp.handleFatInfo();
+  }
+  if (data.startsWith("bp:")) {
+    return bp.handleProductInquiry();
+  }
 const line = require("@line/bot-sdk");
 const bp = require("./handlers/bloodPressure");
 const path = require("path");
@@ -214,7 +222,7 @@ function handlePostback(data) {
     default:
       return {
         type: "text",
-        text: "✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。(１１０１)",
+        text: "請留言您想購買的商品（不確定型號也沒關係），我們會盡快回覆並提供報價，價格超優，值得耐心等候！😊",
       };
   }
 }

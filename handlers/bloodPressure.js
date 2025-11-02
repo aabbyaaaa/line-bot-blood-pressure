@@ -38,10 +38,12 @@ function chunkFlexIfNeeded(msg) {
 }
 
 function handleFat() {
-  if (flexFat) return chunkFlexIfNeeded(flexFat);
+  const guide = { type: 'text', text: '😍 熱敷墊加價購 最低69折起' };
   try {
-    const raw = fs.readFileSync(path.join(__dirname, "..", "bloodPressure", "flex_fat.json"), "utf8");
-    return chunkFlexIfNeeded(JSON.parse(raw));
+    const base = flexFat || JSON.parse(fs.readFileSync(path.join(__dirname, "..", "bloodPressure", "flex_fat.json"), "utf8"));
+    const chunked = chunkFlexIfNeeded(base);
+    if (Array.isArray(chunked)) return [...chunked, guide];
+    return [chunked, guide];
   } catch (e) {
     console.error("Failed to load flex_fat.json", e);
     return { type: "text", text: "內容暫時無法顯示，請稍後再試。" };
@@ -55,14 +57,16 @@ module.exports = {
   handleCategory,
   handleOffers,
   handleWhyUs,
+  handleFatInfo,
+  handleProductInquiry,
 };
 
 function quickReplyItems() {
   return [
-    { type: 'action', action: { type: 'postback', label: '歐姆龍 手臂式', data: 'category=omron_arm', displayText: '歐姆龍 手臂式' } },
-    { type: 'action', action: { type: 'postback', label: '歐姆龍 血壓計（手腕、隧道）', data: 'category=omron_other', displayText: '歐姆龍 血壓計（手腕、隧道）' } },
-    { type: 'action', action: { type: 'postback', label: 'CITIZEN 星辰 血壓計', data: 'category=citizen_bp', displayText: 'CITIZEN 星辰 血壓計' } },
-    { type: 'action', action: { type: 'postback', label: 'NISSEI 日本精密 血壓計', data: 'category=nissei_bp', displayText: 'NISSEI 日本精密 血壓計' } },
+    { type: 'action', action: { type: 'postback', label: '歐姆龍OMRON 手臂式', data: 'category=omron_arm', displayText: '歐姆龍OMRON 手臂式' } },
+    { type: 'action', action: { type: 'postback', label: '歐姆龍OMRON 手腕、隧道', data: 'category=omron_other', displayText: '歐姆龍OMRON 手腕、隧道' } },
+    { type: 'action', action: { type: 'postback', label: '日本精密NISSEI 血壓計', data: 'category=nissei_bp', displayText: '日本精密NISSEI 血壓計' } },
+    { type: 'action', action: { type: 'postback', label: '星辰CITIZEN 血壓計', data: 'category=citizen_bp', displayText: '星辰CITIZEN 血壓計' } },
   ];
 }
 
@@ -143,3 +147,17 @@ function parseCSV(text) {
 }
 
 function handleCategory(key) { return handleCategoryKey(key); }
+
+// postback from A cards: show one official guidance text, no QR
+function handleFatInfo() {
+  return { type: 'text', text: '✨ 優惠價僅限購買血壓計／血糖機時加購適用，詳情請洽客服。' };
+}
+
+// postback from B cards: show two texts then QR (four categories)
+function handleProductInquiry() {
+  return [
+    { type: 'text', text: '客服時間：平日 09:00–17:30。' },
+    { type: 'text', text: '請留言您想購買的商品（不確定型號也沒關係），我們會盡快回覆並提供報價，價格超優，值得耐心等候！😊' },
+    { type: 'text', text: '📌請選擇您想了解的血壓計分類：', quickReply: { items: quickReplyItems() } },
+  ];
+}
