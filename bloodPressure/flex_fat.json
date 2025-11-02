@@ -84,7 +84,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data"
+                "data": "fat_info"
               },
               "offsetTop": "3px"
             }
@@ -180,7 +180,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data"
+                "data": "fat_info"
               },
               "offsetTop": "3px"
             }
@@ -276,7 +276,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data"
+                "data": "fat_info"
               },
               "offsetTop": "3px"
             }
@@ -372,7 +372,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data"
+                "data": "fat_info"
               },
               "offsetTop": "3px"
             }
@@ -468,7 +468,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data"
+                "data": "fat_info"
               },
               "offsetTop": "3px"
             }
@@ -564,7 +564,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data"
+                "data": "fat_info"
               },
               "offsetTop": "3px"
             }
@@ -660,7 +660,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data"
+                "data": "fat_info"
               },
               "offsetTop": "3px"
             }
@@ -756,7 +756,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data"
+                "data": "fat_info"
               },
               "offsetTop": "3px"
             }
@@ -852,7 +852,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data"
+                "data": "fat_info"
               },
               "offsetTop": "3px"
             }
@@ -948,7 +948,7 @@
               "action": {
                 "type": "postback",
                 "label": "了解更多",
-                "data": "data"
+                "data": "fat_info"
               },
               "offsetTop": "3px"
             }

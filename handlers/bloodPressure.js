@@ -156,7 +156,6 @@ function handleFatInfo() {
 // postback from B cards: show two texts then QR (four categories)
 function handleProductInquiry() {
   return [
-    { type: 'text', text: '客服時間：平日 09:00–17:30。' },
     { type: 'text', text: '請留言您想購買的商品（不確定型號也沒關係），我們會盡快回覆並提供報價，價格超優，值得耐心等候！😊' },
     { type: 'text', text: '📌請選擇您想了解的血壓計分類：', quickReply: { items: quickReplyItems() } },
   ];
