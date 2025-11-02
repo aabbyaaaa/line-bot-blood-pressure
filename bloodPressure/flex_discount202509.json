@@ -45,7 +45,7 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/20241208.jpg?v=1758603697",
+            "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/1000x1000-LINE.jpg?v=1762066360",
             "size": "full",
             "aspectMode": "cover",
             "aspectRatio": "1:1",
@@ -53,8 +53,8 @@
             "action": {
               "type": "postback",
               "label": "action",
-              "data": "category=bluetooth_bp",
-              "displayText": "藍牙血壓計"
+              "data": "fat",
+              "displayText": "熱敷墊加價購 最低69折起"
             }
           }
         ],

@@ -84,16 +84,30 @@ function loadJson(relPath) {
   return JSON.parse(raw);
 }
 
+function ensureFlexMessages(obj, alt) {
+  let msg = obj;
+  if (!msg || msg.type !== 'flex') {
+    msg = { type: 'flex', altText: alt || '內容', contents: obj };
+  }
+  return chunkFlexIfNeeded(msg);
+}
+
 function handleOffers() {
-  if (flexOffers) return flexOffers;
-  try { return loadJson(path.join('bloodPressure','flex_discount202509.json')); }
-  catch (e) { console.error('Failed to load discount JSON', e); return { type: 'text', text: '內容暫時無法顯示，請稍後再試。' }; }
+  try {
+    const obj = flexOffers || loadJson(path.join('bloodPressure','flex_discount202509.json'));
+    return ensureFlexMessages(obj, '血壓計優惠');
+  } catch (e) {
+    console.error('Failed to load discount JSON', e); return { type: 'text', text: '內容暫時無法顯示，請稍後再試。' };
+  }
 }
 
 function handleWhyUs() {
-  if (flexWhyUs) return flexWhyUs;
-  try { return loadJson(path.join('bloodPressure','flex_whyus.json')); }
-  catch (e) { console.error('Failed to load whyus JSON', e); return { type: 'text', text: '內容暫時無法顯示，請稍後再試。' }; }
+  try {
+    const obj = flexWhyUs || loadJson(path.join('bloodPressure','flex_whyus.json'));
+    return ensureFlexMessages(obj, '德記承諾');
+  } catch (e) {
+    console.error('Failed to load whyus JSON', e); return { type: 'text', text: '內容暫時無法顯示，請稍後再試。' };
+  }
 }
 
 function handleCategoryKey(key) {
