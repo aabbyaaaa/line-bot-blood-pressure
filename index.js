@@ -39,6 +39,19 @@ async function handleEvent(event) {
     replyMessage = handleTextMessage(event.message.text);
   }
 
+  // 若為回聲型預設回覆（內容包含使用者原文），則不回覆
+  if (
+    replyMessage &&
+    replyMessage.type === "text" &&
+    typeof replyMessage.text === "string" &&
+    event.type === "message" &&
+    event.message &&
+    event.message.type === "text" &&
+    replyMessage.text.includes(event.message.text)
+  ) {
+    replyMessage = null;
+  }
+
   if (replyMessage) {
     return client.replyMessage(event.replyToken, replyMessage);
   }
