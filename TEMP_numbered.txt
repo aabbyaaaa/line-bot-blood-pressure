@@ -1,0 +1,153 @@
+   1: // Build bloodPressure/flex_blood.json from bloodPressure/flex_blood.csv
+   2: // CSV header expected (one line):
+   3: // id,category,image_url,badge_text,badge_bg_color,brand,title,subtitle,price,price_original,button_type,button_label,button_data_or_url,button_display_text,button_color,order,alt_text
+   4: 
+   5: const fs = require('fs');
+   6: const path = require('path');
+   7: 
+   8: const CSV_PATH = path.join('bloodPressure', 'flex_blood.csv');
+   9: const OUT_PATH = path.join('bloodPressure', 'flex_blood.json');
+  10: 
+  11: function parseCSV(text) {
+  12:   const rows = [];
+  13:   let i = 0, field = '', row = [], inQuotes = false;
+  14:   while (i < text.length) {
+  15:     const ch = text[i];
+  16:     if (inQuotes) {
+  17:       if (ch === '"') {
+  18:         if (text[i + 1] === '"') { field += '"'; i += 2; continue; }
+  19:         inQuotes = false; i++; continue;
+  20:       } else { field += ch; i++; continue; }
+  21:     }
+  22:     if (ch === '"') { inQuotes = true; i++; continue; }
+  23:     if (ch === ',') { row.push(field); field = ''; i++; continue; }
+  24:     if (ch === '\n' || ch === '\r') {
+  25:       if (ch === '\r' && text[i + 1] === '\n') i++;
+  26:       row.push(field); field = ''; rows.push(row); row = []; i++; continue;
+  27:     }
+  28:     field += ch; i++;
+  29:   }
+  30:   if (field.length > 0 || row.length > 0) { row.push(field); rows.push(row); }
+  31:   return rows.filter(r => r.length && r.some(c => (c||'').trim().length>0));
+  32: }
+  33: 
+  34: function ensureDollar(s) {
+  35:   if (!s) return s;
+  36:   const t = String(s).trim();
+  37:   if (!t) return t;
+  38:   return t.startsWith('$') ? t : `$${t}`;
+  39: }
+  40: 
+  41: function buildBadge(badge_text, badge_bg_color) {
+  42:   if (!badge_text || !badge_text.trim()) return null;
+  43:   return {
+  44:     type: 'box',
+  45:     layout: 'horizontal',
+  46:     contents: [{ type: 'text', text: badge_text.trim(), size: 'xs', color: '#ffffff', align: 'center', gravity: 'center' }],
+  47:     position: 'absolute', flex: 0, width: '60px', height: '25px',
+  48:     backgroundColor: badge_bg_color && badge_bg_color.trim() ? badge_bg_color.trim() : '#EC3D44',
+  49:     cornerRadius: '100px', offsetTop: '18px', offsetStart: '10px',
+  50:     paddingAll: '2px', paddingStart: '4px', paddingEnd: '4px',
+  51:   };
+  52: }
+  53: 
+  54: function toBubble(rec) {
+  55:   const id = (rec.id || '').trim();
+  56:   const category = (rec.category || '').trim();
+  57:   const image_url = (rec.image_url || '').trim();
+  58:   const badge_text = (rec.badge_text || '').trim();
+  59:   const badge_bg_color = (rec.badge_bg_color || '').trim();
+  60:   const brand = (rec.brand || '').trim();
+  61:   const title = (rec.title || '').trim();
+  62:   const subtitle = (rec.subtitle || '').trim();
+  63:   const price = ensureDollar((rec.price || '').trim());
+  64:   const price_original = ensureDollar((rec.price_original || '').trim());
+  65:   const button_type = ((rec.button_type || 'postback')).trim().toLowerCase();
+  66:   const button_label = (rec.button_label || '了解更多').trim();
+  67:   const button_data_or_url = (rec.button_data_or_url || '').trim();
+  68:   const button_display_text = (rec.button_display_text || '').trim();
+  69:   const button_color = (rec.button_color || '#005eb8').trim();
+  70: 
+  71:   const action = button_type === 'uri'
+  72:     ? { type: 'uri', label: button_label, uri: button_data_or_url }
+  73:     : { type: 'postback', label: button_label, data: (button_data_or_url || (id ? `bp:sku=${id}` : 'bp')) };
+  74:   if (button_type !== 'uri' && button_display_text) action.displayText = button_display_text;
+  75: 
+  76:   const badge = buildBadge(badge_text, badge_bg_color);
+  77: 
+  78:   return {
+  79:     _id: id,
+  80:     _category: category,
+  81:     type: 'bubble',
+  82:     size: 'deca',
+  83:     header: {
+  84:       type: 'box', layout: 'vertical', contents: [
+  85:         { type: 'image', url: image_url, size: 'full', aspectRatio: '320:220', aspectMode: 'fit' },
+  86:         ...(badge ? [badge] : []),
+  87:       ],
+  88:     },
+  89:     body: {
+  90:       type: 'box', layout: 'vertical', contents: [
+  91:         { type: 'box', layout: 'baseline', contents: [ { type: 'text', text: brand, size: 'md', flex: 0, weight: 'bold' } ], offsetBottom: '5px' },
+  92:         { type: 'text', text: title, size: 'sm', wrap: true, offsetBottom: '5px' },
+  93:         ...(subtitle ? [ { type: 'text', text: subtitle, size: 'sm', wrap: true, offsetBottom: '5px' } ] : []),
+  94:         { type: 'box', layout: 'baseline', contents: [
+  95:             { type: 'text', text: price, color: '#EA4343', weight: 'bold', offsetTop: '5px', offsetBottom: '5px' },
+  96:             ...(price_original ? [{ type: 'text', text: price_original, decoration: 'line-through', size: '14px', color: '#9E9E9E', offsetTop: '5px', offsetBottom: '5px' }] : []),
+  97:           ],
+  98:           offsetBottom: '5px', height: '28px'
+  99:         },
+ 100:         { type: 'button', style: 'primary', color: button_color, height: 'sm', position: 'relative', action, offsetTop: '5px' },
+ 101:       ], spacing: 'sm', paddingEnd: '15px', paddingStart: '15px'
+ 102:     },
+ 103:     styles: { body: { separatorColor: '#E6F3FF', backgroundColor: '#E6F3FF' } },
+ 104:   };
+ 105: }
+ 106: 
+ 107: function stripInternal(bubbles) {
+ 108:   return bubbles.map(b => {
+ 109:     const c = JSON.parse(JSON.stringify(b));
+ 110:     delete c._id; delete c._category;
+ 111:     return c;
+ 112:   });
+ 113: }
+ 114: 
+ 115: function main() {
+ 116:   if (!fs.existsSync(CSV_PATH)) {
+ 117:     console.error(`CSV not found: ${CSV_PATH}`);
+ 118:     process.exit(1);
+ 119:   }
+ 120:   const raw = fs.readFileSync(CSV_PATH, 'utf8');
+ 121:   const rows = parseCSV(raw);
+ 122:   if (rows.length < 2) { console.error('CSV has no data rows'); process.exit(1); }
+ 123:   const header = rows[0].map(h => h.trim());
+ 124:   const data = rows.slice(1).map(cols => {
+ 125:     const o = {}; header.forEach((h, i) => o[h] = cols[i] ?? '');
+ 126:     const ord = o.order ? Number(o.order) : undefined; o.__order = isNaN(ord) ? undefined : ord; return o;
+ 127:   });
+ 128:   // sort by order then row order
+ 129:   const sorted = data.slice().sort((a,b)=>{
+ 130:     if (a.__order!=null && b.__order!=null) return a.__order-b.__order;
+ 131:     if (a.__order!=null) return -1; if (b.__order!=null) return 1; return 0;
+ 132:   });
+ 133:   const altText = (sorted.find(r => (r.alt_text||'').trim())?.alt_text || '血壓計商品').trim();
+ 134:   const bubblesRaw = sorted.map(toBubble);
+ 135:   const bubblesOut = stripInternal(bubblesRaw);
+ 136:   const message = { type: 'flex', altText, contents: { type: 'carousel', contents: bubblesOut } };
+ 137:   fs.writeFileSync(OUT_PATH, JSON.stringify(message, null, 2), 'utf8');
+ 138: 
+ 139:   // Build category index for runtime filtering without reading CSV
+ 140:   const indexByCategory = {};
+ 141:   const categories = ['omron_arm','omron_other','citizen_bp','nissei_bp'];
+ 142:   for (const cat of categories) indexByCategory[cat] = [];
+ 143:   bubblesRaw.forEach((b, i) => {
+ 144:     const cat = (b._category || '').trim();
+ 145:     if (cat && indexByCategory[cat]) indexByCategory[cat].push(i);
+ 146:   });
+ 147:   const idxOutPath = path.join('bloodPressure', 'flex_blood_index.json');
+ 148:   fs.writeFileSync(idxOutPath, JSON.stringify({ altText, categories: indexByCategory }, null, 2), 'utf8');
+ 149: 
+ 150:   console.log(`Wrote ${OUT_PATH} with ${bubblesOut.length} bubbles. Index saved to ${idxOutPath}.`);
+ 151: }
+ 152: 
+ 153: main();
