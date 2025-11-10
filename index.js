@@ -15,10 +15,14 @@ const client = new line.Client(config);
 
 // 處理 LINE Webhook
 app.post("/webhook", line.middleware(config), (req, res) => {
+  console.log('Received webhook:', JSON.stringify(req.body));
   Promise.all(req.body.events.map(handleEvent))
-    .then((result) => res.json(result))
+    .then((result) => {
+      console.log('Webhook handled successfully:', JSON.stringify(result));
+      res.json(result);
+    })
     .catch((err) => {
-      console.error(err);
+      console.error('Error handling webhook:', err);
       res.status(500).end();
     });
 });
