@@ -135,13 +135,13 @@ function handleDainichiProducts() {
             spacing: "sm",
             borderColor: "#e85511",
             margin: "xxl",
-            height: "40px",
             backgroundColor: "#e85511",
             action: {
               type: "message",
               label: "action",
-              text: "FW-371LET限時下殺 $12,000｜查看完整優惠＞https://reurl.cc/vKE7Mo",
+              text: "FW-57GRT限時下殺 $16,500｜查看完整優惠＞https://reurl.cc/vKE7Mo",
             },
+            height: "40px",
           },
           styles: {
             footer: {
