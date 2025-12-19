@@ -1,24 +1,22 @@
 {
   "size": { "width": 2500, "height": 1686 },
   "selected": true,
-  "name": "血壓計主選單",
-  "chatBarText": "冬季血壓計優惠✨",
+  "name": "大日煤油暖爐主選單",
+  "chatBarText": "冬季煤油暖爐優惠✨",
   "areas": [
     {
-      "bounds": { "x": 0, "y": 0, "width": 2500, "height": 852 },
-      "action": { "type": "postback", "data": "fat" }
+      "bounds": { "x": 0, "y": 0, "width": 1250, "height": 1686 },
+      "action": {
+        "type": "uri",
+        "uri": "https://dgs.com.tw/hotcategory/Dainichi/"
+      }
     },
     {
-      "bounds": { "x": 0, "y": 852, "width": 833, "height": 834 },
-      "action": { "type": "postback", "data": "action=bp_categories" }
-    },
-    {
-      "bounds": { "x": 833, "y": 852, "width": 833, "height": 834 },
-      "action": { "type": "postback", "data": "action=current_offers" }
-    },
-    {
-      "bounds": { "x": 1666, "y": 852, "width": 834, "height": 834 },
-      "action": { "type": "postback", "data": "action=why_choose_us" }
+      "bounds": { "x": 1250, "y": 0, "width": 1250, "height": 1686 },
+      "action": {
+        "type": "postback",
+        "data": "action=dainichi_products"
+      }
     }
   ]
 }
