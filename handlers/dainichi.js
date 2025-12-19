@@ -20,96 +20,64 @@ function handleDainichiProducts() {
               {
                 type: "image",
                 url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/A-LINE_-C.jpg?v=1766129198",
-                size: "full",
-                aspectMode: "cover",
                 aspectRatio: "1:1",
-                gravity: "top",
-              },
-              {
-                type: "box",
-                layout: "vertical",
-                contents: [
-                  {
-                    type: "box",
-                    layout: "vertical",
-                    contents: [
-                      {
-                        type: "text",
-                        text: "總代理力挺，保證最低價",
-                        size: "xl",
-                        color: "#1A1A1A",
-                        weight: "bold",
-                      },
-                    ],
-                  },
-                  {
-                    type: "box",
-                    layout: "baseline",
-                    contents: [
-                      {
-                        type: "text",
-                        text: "日本、台灣銷售雙料冠軍",
-                        color: "#1A1A1A",
-                        size: "sm",
-                        flex: 0,
-                      },
-                    ],
-                    spacing: "lg",
-                  },
-                  {
-                    type: "box",
-                    layout: "vertical",
-                    contents: [
-                      {
-                        type: "filler",
-                      },
-                      {
-                        type: "box",
-                        layout: "baseline",
-                        contents: [
-                          {
-                            type: "filler",
-                          },
-                          {
-                            type: "icon",
-                            url: "https://developers-resource.landpress.line.me/fx/clip/clip14.png",
-                          },
-                          {
-                            type: "text",
-                            text: "Add to cart",
-                            color: "#FFFFFF",
-                            flex: 0,
-                            offsetTop: "-2px",
-                          },
-                          {
-                            type: "filler",
-                          },
-                        ],
-                        spacing: "sm",
-                      },
-                      {
-                        type: "filler",
-                      },
-                    ],
-                    borderWidth: "1px",
-                    cornerRadius: "4px",
-                    spacing: "sm",
-                    borderColor: "#e85511",
-                    margin: "xxl",
-                    height: "40px",
-                    backgroundColor: "#e85511",
-                  },
-                ],
-                position: "absolute",
-                offsetBottom: "0px",
-                offsetStart: "0px",
-                offsetEnd: "0px",
-                backgroundColor: "#f2cf67",
-                paddingAll: "20px",
-                paddingTop: "18px",
+                margin: "0px",
+                size: "full",
               },
             ],
             paddingAll: "0px",
+          },
+          footer: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "filler",
+                  },
+                  {
+                    type: "icon",
+                    url: "https://dgs.com.tw/hotcategory/Dainichi/",
+                  },
+                  {
+                    type: "text",
+                    text: "想省錢請點這 👉",
+                    color: "#FFFFFF",
+                    flex: 0,
+                    offsetTop: "-2px",
+                    action: {
+                      type: "message",
+                      label: "action",
+                      text: "FW-371LET限時下殺 $12,000｜查看完整優惠＞https://reurl.cc/vKE7Mo",
+                    },
+                  },
+                  {
+                    type: "filler",
+                  },
+                ],
+                spacing: "sm",
+              },
+            ],
+            borderWidth: "1px",
+            cornerRadius: "4px",
+            spacing: "sm",
+            borderColor: "#e85511",
+            margin: "xxl",
+            height: "40px",
+            backgroundColor: "#e85511",
+            action: {
+              type: "message",
+              label: "action",
+              text: "FW-371LET限時下殺 $12,000｜查看完整優惠＞https://reurl.cc/vKE7Mo",
+            },
+          },
+          styles: {
+            footer: {
+              separator: false,
+            },
           },
         },
         {
@@ -120,106 +88,65 @@ function handleDainichiProducts() {
             contents: [
               {
                 type: "image",
-                url: "https://developers-resource.landpress.line.me/fx/clip/clip2.jpg",
+                url: "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/A-LINE_-B.jpg?v=1766129198",
+                aspectRatio: "1:1",
+                margin: "0px",
                 size: "full",
-                aspectMode: "cover",
-                aspectRatio: "2:3",
-                gravity: "top",
-              },
-              {
-                type: "box",
-                layout: "vertical",
-                contents: [
-                  {
-                    type: "box",
-                    layout: "vertical",
-                    contents: [
-                      {
-                        type: "text",
-                        text: "Cony's T-shirts",
-                        size: "xl",
-                        color: "#ffffff",
-                        weight: "bold",
-                      },
-                    ],
-                  },
-                  {
-                    type: "box",
-                    layout: "baseline",
-                    contents: [
-                      {
-                        type: "text",
-                        text: "¥35,800",
-                        color: "#ebebeb",
-                        size: "sm",
-                        flex: 0,
-                      },
-                      {
-                        type: "text",
-                        text: "¥75,000",
-                        color: "#ffffffcc",
-                        decoration: "line-through",
-                        gravity: "bottom",
-                        flex: 0,
-                        size: "sm",
-                      },
-                    ],
-                    spacing: "lg",
-                  },
-                  {
-                    type: "box",
-                    layout: "vertical",
-                    contents: [
-                      {
-                        type: "filler",
-                      },
-                      {
-                        type: "box",
-                        layout: "baseline",
-                        contents: [
-                          {
-                            type: "filler",
-                          },
-                          {
-                            type: "icon",
-                            url: "https://developers-resource.landpress.line.me/fx/clip/clip14.png",
-                          },
-                          {
-                            type: "text",
-                            text: "Add to cart",
-                            color: "#ffffff",
-                            flex: 0,
-                            offsetTop: "-2px",
-                          },
-                          {
-                            type: "filler",
-                          },
-                        ],
-                        spacing: "sm",
-                        borderColor: "#ffffff",
-                      },
-                      {
-                        type: "filler",
-                      },
-                    ],
-                    borderWidth: "1px",
-                    cornerRadius: "4px",
-                    spacing: "sm",
-                    borderColor: "#ffffff",
-                    margin: "xxl",
-                    height: "40px",
-                  },
-                ],
-                position: "absolute",
-                offsetBottom: "0px",
-                offsetStart: "0px",
-                offsetEnd: "0px",
-                backgroundColor: "#9C8E7Ecc",
-                paddingAll: "20px",
-                paddingTop: "18px",
               },
             ],
             paddingAll: "0px",
+          },
+          footer: {
+            type: "box",
+            layout: "vertical",
+            contents: [
+              {
+                type: "box",
+                layout: "baseline",
+                contents: [
+                  {
+                    type: "filler",
+                  },
+                  {
+                    type: "icon",
+                    url: "https://dgs.com.tw/hotcategory/Dainichi/",
+                  },
+                  {
+                    type: "text",
+                    text: "想省錢請點這 👉",
+                    color: "#FFFFFF",
+                    flex: 0,
+                    offsetTop: "-2px",
+                    action: {
+                      type: "message",
+                      label: "action",
+                      text: "FW-57GRT限時下殺 $16,500｜查看完整優惠＞https://reurl.cc/vKE7Mo",
+                    },
+                  },
+                  {
+                    type: "filler",
+                  },
+                ],
+                spacing: "sm",
+              },
+            ],
+            borderWidth: "1px",
+            cornerRadius: "4px",
+            spacing: "sm",
+            borderColor: "#e85511",
+            margin: "xxl",
+            height: "40px",
+            backgroundColor: "#e85511",
+            action: {
+              type: "message",
+              label: "action",
+              text: "FW-371LET限時下殺 $12,000｜查看完整優惠＞https://reurl.cc/vKE7Mo",
+            },
+          },
+          styles: {
+            footer: {
+              separator: false,
+            },
           },
         },
       ],
