@@ -3,7 +3,7 @@ const path = require('path');
 
 // 預先載入 JSON（如果失敗會在函數中重新載入）
 let flexInfo;
-try { flexInfo = require("../richmenus/VITAMIX/flex_info.json"); } catch(_) {}
+try { flexInfo = require("../richmenus/vitamix/flex_info.json"); } catch(_) {}
 
 /**
  * 輔助函數：動態載入 JSON 檔案
@@ -41,7 +41,7 @@ function ensureFlexMessages(obj, altText) {
  */
 function handleVitamixInfo() {
   try {
-    const obj = flexInfo || loadJson(path.join('richmenus', 'VITAMIX', 'flex_info.json'));
+    const obj = flexInfo || loadJson(path.join('richmenus', 'vitamix', 'flex_info.json'));
     return ensureFlexMessages(obj, 'VITAMIX資訊');
   } catch (e) {
     console.error('Failed to load VITAMIX info JSON', e);
