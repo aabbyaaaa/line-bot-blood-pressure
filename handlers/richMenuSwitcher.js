@@ -1,11 +1,18 @@
 const line = require('@line/bot-sdk');
 
-const config = {
-  channelAccessToken: process.env.LINE_CHANNEL_ACCESS_TOKEN,
-  channelSecret: process.env.LINE_CHANNEL_SECRET,
-};
+// Lazy initialization of client
+let client = null;
 
-const client = new line.Client(config);
+function getClient() {
+  if (!client) {
+    const config = {
+      channelAccessToken: process.env.LINE_CHANNEL_ACCESS_TOKEN,
+      channelSecret: process.env.LINE_CHANNEL_SECRET,
+    };
+    client = new line.Client(config);
+  }
+  return client;
+}
 
 // 儲存圖文選單 ID 的快取
 let richMenuIds = {
@@ -26,7 +33,7 @@ function setRichMenuIds(ids) {
  */
 async function fetchRichMenuIds() {
   try {
-    const menus = await client.getRichMenuList();
+    const menus = await getClient().getRichMenuList();
 
     menus.forEach(menu => {
       if (menu.name === '血壓計主選單') {
@@ -64,7 +71,7 @@ async function switchRichMenu(userId, menuName) {
     }
 
     // 綁定圖文選單給使用者
-    await client.linkRichMenuToUser(userId, richMenuId);
+    await getClient().linkRichMenuToUser(userId, richMenuId);
     console.log(`Switched to ${menuName} for user ${userId}`);
 
     // 不回傳任何訊息（因為 displayText 設定為空）
@@ -75,8 +82,8 @@ async function switchRichMenu(userId, menuName) {
   }
 }
 
-// 初始化時取得圖文選單 ID
-fetchRichMenuIds();
+// 延遲初始化：只在第一次呼叫時才取得圖文選單 ID
+// fetchRichMenuIds(); // 移除自動執行
 
 module.exports = {
   switchRichMenu,
