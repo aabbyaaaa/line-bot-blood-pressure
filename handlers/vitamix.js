@@ -27,7 +27,7 @@ function ensureFlexMessages(obj, altText) {
   if (obj.type === 'carousel' || (obj.contents && Array.isArray(obj.contents))) {
     return {
       type: 'flex',
-      altText: altText || 'Vitamix E320獨家組合現省$7,200！',
+      altText: altText || 'Vitamix E320獨家組合現省$7200',
       contents: obj
     };
   }

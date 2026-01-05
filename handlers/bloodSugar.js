@@ -27,7 +27,7 @@ function ensureFlexMessages(obj, altText) {
   if (obj.type === 'carousel' || (obj.contents && Array.isArray(obj.contents))) {
     return {
       type: 'flex',
-      altText: altText || '血糖機/血糖試紙，詢價最低79折起！',
+      altText: altText || '血糖機/血糖試紙 詢價最低79折起',
       contents: obj
     };
   }

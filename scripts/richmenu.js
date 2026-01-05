@@ -75,8 +75,18 @@ async function createFromDir(dir) {
   if (!imgPath) throw new Error(`Missing image file (image.png|image.jpg) in ${dir}`);
 
   const menu = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
-  const richMenuId = await client.createRichMenu(menu);
-  console.log('Created rich menu', menu.name, richMenuId);
+  let richMenuId;
+  try {
+    richMenuId = await client.createRichMenu(menu);
+    console.log('Created rich menu', menu.name, richMenuId);
+  } catch (err) {
+    console.error('Failed to create rich menu:', menu.name);
+    console.error('Menu data:', JSON.stringify(menu, null, 2));
+    if (err.originalError && err.originalError.response) {
+      console.error('API response:', JSON.stringify(err.originalError.response.data, null, 2));
+    }
+    throw err;
+  }
 
   // Validate image size (< 1MB per LINE spec)
   const stat = fs.statSync(imgPath);
