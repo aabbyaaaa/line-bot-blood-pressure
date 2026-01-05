@@ -16,6 +16,16 @@ const config = {
 
 const client = new line.Client(config);
 
+// 健康檢查端點
+app.get("/", (req, res) => {
+  res.json({
+    status: "ok",
+    message: "LINE Bot is running",
+    hasToken: !!process.env.LINE_CHANNEL_ACCESS_TOKEN,
+    hasSecret: !!process.env.LINE_CHANNEL_SECRET
+  });
+});
+
 // 處理 LINE Webhook
 app.post("/webhook", line.middleware(config), (req, res) => {
   console.log('Received webhook:', JSON.stringify(req.body));
@@ -26,7 +36,8 @@ app.post("/webhook", line.middleware(config), (req, res) => {
     })
     .catch((err) => {
       console.error('Error handling webhook:', err);
-      res.status(500).end();
+      console.error('Error stack:', err.stack);
+      res.status(500).json({ error: err.message });
     });
 });
 
