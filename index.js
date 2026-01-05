@@ -51,17 +51,21 @@ async function handleEvent(event) {
 
   if (event.type === "postback") {
     const data = event.postback.data;
+    console.log('Postback received:', data);
 
     // 處理圖文選單切換（不回傳訊息）
     if (data === "action=switch_to_bloodPressure") {
+      console.log('Switching to bloodPressure');
       await richMenuSwitcher.switchRichMenu(event.source.userId, "bloodPressure");
       return Promise.resolve(null);
     }
     if (data === "action=switch_to_bloodSugar") {
+      console.log('Switching to bloodSugar');
       await richMenuSwitcher.switchRichMenu(event.source.userId, "bloodSugar");
       return Promise.resolve(null);
     }
     if (data === "action=switch_to_VITAMIX") {
+      console.log('Switching to VITAMIX');
       await richMenuSwitcher.switchRichMenu(event.source.userId, "VITAMIX");
       return Promise.resolve(null);
     }
