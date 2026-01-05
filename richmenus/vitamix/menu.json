@@ -1,21 +1,28 @@
 {
-  "size": { "width": 2500, "height": 843 },
+  "size": { "width": 2500, "height": 1686 },
   "selected": false,
-  "name": "vitamix",
-  "chatBarText": "營養補給選單",
+  "name": "VITAMIX",
+  "chatBarText": "VITAMIX選單",
   "areas": [
     {
-      "bounds": { "x": 0, "y": 0, "width": 833, "height": 843 },
-      "action": { "type": "postback", "data": "fat", "displayText": "諮詢體脂" }
+      "bounds": { "x": 0, "y": 0, "width": 833, "height": 235 },
+      "action": { "type": "postback", "data": "action=switch_to_bloodPressure" }
     },
     {
-      "bounds": { "x": 833, "y": 0, "width": 834, "height": 843 },
-      "action": { "type": "postback", "data": "blood", "displayText": "血壓諮詢" }
+      "bounds": { "x": 833, "y": 0, "width": 834, "height": 235 },
+      "action": { "type": "postback", "data": "action=switch_to_bloodSugar" }
     },
     {
-      "bounds": { "x": 1667, "y": 0, "width": 833, "height": 843 },
-      "action": { "type": "postback", "data": "action=current_offers", "displayText": "看優惠" }
+      "bounds": { "x": 1667, "y": 0, "width": 833, "height": 235 },
+      "action": { "type": "postback", "data": "action=switch_to_VITAMIX" }
+    },
+    {
+      "bounds": { "x": 0, "y": 235, "width": 1250, "height": 1451 },
+      "action": { "type": "uri", "uri": "https://dgs.com.tw/hotcategory/VitamixE320/" }
+    },
+    {
+      "bounds": { "x": 1250, "y": 235, "width": 1250, "height": 1451 },
+      "action": { "type": "postback", "data": "action=vitamix_info" }
     }
   ]
 }
-

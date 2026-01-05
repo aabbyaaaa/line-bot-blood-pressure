@@ -1,6 +1,9 @@
 const express = require("express");
 const line = require("@line/bot-sdk");
 const bp = require("./handlers/bloodPressure");
+const bs = require("./handlers/bloodSugar");
+const vm = require("./handlers/vitamix");
+const richMenuSwitcher = require("./handlers/richMenuSwitcher");
 require("dotenv").config();
 
 const app = express();
@@ -36,8 +39,24 @@ async function handleEvent(event) {
   let replyMessage;
 
   if (event.type === "postback") {
-    // 處理圖文選單點擊
-    replyMessage = handlePostback(event.postback.data);
+    const data = event.postback.data;
+
+    // 處理圖文選單切換（不回傳訊息）
+    if (data === "action=switch_to_bloodPressure") {
+      await richMenuSwitcher.switchRichMenu(event.source.userId, "bloodPressure");
+      return Promise.resolve(null);
+    }
+    if (data === "action=switch_to_bloodSugar") {
+      await richMenuSwitcher.switchRichMenu(event.source.userId, "bloodSugar");
+      return Promise.resolve(null);
+    }
+    if (data === "action=switch_to_VITAMIX") {
+      await richMenuSwitcher.switchRichMenu(event.source.userId, "VITAMIX");
+      return Promise.resolve(null);
+    }
+
+    // 處理其他 postback
+    replyMessage = handlePostback(data);
   } else if (event.type === "message" && event.message.type === "text") {
     // 處理文字訊息
     replyMessage = handleTextMessage(event.message.text);
@@ -88,6 +107,16 @@ function handlePostback(data) {
   }
   if (data === "action=why_choose_us") {
     return bp.handleWhyUs();
+  }
+
+  // Blood sugar flows routed to handlers
+  if (data === "action=blood_sugar_info") {
+    return bs.handleBloodSugarInfo();
+  }
+
+  // VITAMIX flows routed to handlers
+  if (data === "action=vitamix_info") {
+    return vm.handleVitamixInfo();
   }
   if (data === "category=omron_arm") {
     return bp.handleCategory("omron_arm");

@@ -2,6 +2,7 @@
  Rich Menu management script
  Usage examples:
   - node scripts/richmenu.js list
+  - node scripts/richmenu.js disable (取消預設圖文選單，暫停使用)
   - node scripts/richmenu.js delete-all
   - node scripts/richmenu.js deploy --dir richmenus --default bloodPressure
 */
@@ -29,6 +30,25 @@ function getArg(name, def) {
 async function list() {
   const menus = await client.getRichMenuList();
   console.log(JSON.stringify(menus, null, 2));
+}
+
+async function disable() {
+  try {
+    const defaultMenuId = await client.getDefaultRichMenuId();
+    if (defaultMenuId) {
+      await client.deleteDefaultRichMenu();
+      console.log('已取消預設圖文選單 (Rich Menu ID:', defaultMenuId, ')');
+      console.log('圖文選單已暫停，但未刪除，可隨時重新啟用');
+    } else {
+      console.log('目前沒有設定預設圖文選單');
+    }
+  } catch (err) {
+    if (err.statusCode === 404) {
+      console.log('目前沒有設定預設圖文選單');
+    } else {
+      throw err;
+    }
+  }
 }
 
 async function deleteAll() {
@@ -98,6 +118,8 @@ async function deployAll(rootDir, defaultName) {
   try {
     if (cmd === 'list') {
       await list();
+    } else if (cmd === 'disable') {
+      await disable();
     } else if (cmd === 'delete-all') {
       await deleteAll();
     } else if (cmd === 'deploy') {
@@ -105,7 +127,7 @@ async function deployAll(rootDir, defaultName) {
       const def = getArg('default');
       await deployAll(dir, def);
     } else {
-      console.log('Commands: list | delete-all | deploy --dir <dir> [--default <name>]');
+      console.log('Commands: list | disable | delete-all | deploy --dir <dir> [--default <name>]');
     }
   } catch (err) {
     console.error(err);

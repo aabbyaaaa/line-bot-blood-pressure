@@ -5,7 +5,19 @@
   "chatBarText": "冬季血壓計優惠✨",
   "areas": [
     {
-      "bounds": { "x": 0, "y": 0, "width": 2500, "height": 852 },
+      "bounds": { "x": 0, "y": 0, "width": 833, "height": 235 },
+      "action": { "type": "postback", "data": "action=switch_to_bloodPressure" }
+    },
+    {
+      "bounds": { "x": 833, "y": 0, "width": 834, "height": 235 },
+      "action": { "type": "postback", "data": "action=switch_to_bloodSugar" }
+    },
+    {
+      "bounds": { "x": 1667, "y": 0, "width": 833, "height": 235 },
+      "action": { "type": "postback", "data": "action=switch_to_VITAMIX" }
+    },
+    {
+      "bounds": { "x": 0, "y": 235, "width": 2500, "height": 617 },
       "action": { "type": "postback", "data": "fat" }
     },
     {
