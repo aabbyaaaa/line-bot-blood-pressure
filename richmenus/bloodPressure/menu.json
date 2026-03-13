@@ -17,10 +17,6 @@
       "action": { "type": "postback", "data": "action=switch_to_VITAMIX" }
     },
     {
-      "bounds": { "x": 0, "y": 235, "width": 2500, "height": 617 },
-      "action": { "type": "postback", "data": "fat" }
-    },
-    {
       "bounds": { "x": 0, "y": 852, "width": 833, "height": 834 },
       "action": { "type": "postback", "data": "action=bp_categories" }
     },

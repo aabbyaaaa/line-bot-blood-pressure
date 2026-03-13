@@ -36,30 +36,6 @@
         ],
         "paddingAll": "0px"
       }
-    },
-    {
-      "type": "bubble",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "image",
-            "url": "https://cdn.shopify.com/s/files/1/0204/3327/2854/files/1000x1000-LINE.jpg?v=1762066360",
-            "size": "full",
-            "aspectMode": "cover",
-            "aspectRatio": "1:1",
-            "gravity": "center",
-            "action": {
-              "type": "postback",
-              "label": "action",
-              "data": "fat",
-              "displayText": "熱敷墊加價購 最低69折起"
-            }
-          }
-        ],
-        "paddingAll": "0px"
-      }
     }
   ]
 }
